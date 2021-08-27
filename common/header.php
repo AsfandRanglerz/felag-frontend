@@ -70,7 +70,7 @@
                                 Contact Support<span class="ml-2 fa fa-angle-down"></span>
                             </a>
                             <div class="dropdown-menu animated-dropdown slideIn" aria-labelledby="dropdownNavTwo">
-                                <a class="dropdown-item" href="#">Contact Us</a>
+                                <a class="dropdown-item" href="./contact-us.php">Contact Us</a>
                             </div>
                         </li>
                     </ul>

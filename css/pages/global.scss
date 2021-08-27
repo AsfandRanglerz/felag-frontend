@@ -4,6 +4,78 @@
     font-family: 'Poppins', sans-serif;
 }
 body {
+    label {
+        font-family: "Inter", sans-serif;
+    }
+    textarea {
+        min-height: 145px;
+    }
+    .required {
+        color: #ff2800!important;
+        font-family: "Inter", sans-serif;
+    }
+    form .btn-bg {
+        padding: 6px 24px;
+        font-size: 16px;
+    }
+    select.form-control.is-valid, .was-validated select.form-control:valid,
+    select.form-control.is-invalid, .was-validated select.form-control:invalid {
+        background-position: right calc(.375em + 1.1875rem) center;
+    }
+    .input-field-kr .form-control.is-valid,
+    .was-validated .input-field-kr .form-control:valid,
+    .input-field-kr .form-control.is-invalid,
+    .was-validated .input-field-kr .form-control:invalid {
+        background-position: right calc(.375em + 2.1875rem) center;
+        padding-right: 4.75rem;
+    }
+    .form-control,
+    .custom-file-label {
+        height: calc(1.5em + .75rem + 5px);
+    }
+    .custom-file-label::after {
+        border-radius: 0 8px 8px 0;
+        height: 100%;
+    }
+    .form-control:focus,
+    .custom-file-input:focus~.custom-file-label {
+        border-color: $themeBtnLinkColor;
+        box-shadow: none;
+    }
+    .form-control {
+        border: 2px solid #ced4da;
+    }
+    .form-control[readonly] {
+        border-color: #ced4da;
+        box-shadow: none;
+    }
+    .form-control[type=number]::-webkit-inner-spin-button,
+    .form-control[type=number]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+    }
+
+    /*custom checkboxes*/
+    .custom-control-label {
+        cursor: pointer;
+    }
+
+    .custom-control-input:focus ~ .custom-control-label::before {
+        box-shadow: none;
+    }
+
+    .custom-control-label::before,
+    .custom-control-input:focus:not(:checked)~.custom-control-label::before {
+        background-color: #FFF;
+        border: 1px solid #545b62;
+    }
+
+    .custom-control-input:checked ~ .custom-control-label::before,
+    .custom-control-input:not(:disabled):active~.custom-control-label::before {
+        background-color: $themeBtnLinkColor;
+        border: 1px solid $themeBtnLinkColor;
+    }
+    /*custom checkboxes*/
+
     .object-fit-cover {
         object-fit: cover;
     }
@@ -19,7 +91,7 @@ body {
     li {
         font-size: 14px;
     }
-    a {
+    a, button {
         color: $themeBtnLinkColor;
         -webkit-transition: all 0.3s;
         -o-transition: all 0.3s;
