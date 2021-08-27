@@ -683,5 +683,180 @@ body .custom-control-label {
     height: 225px;
   }
 }
+.prices .banner {
+  background-image: url(https://presisutleie.no/wp-content/uploads/2021/02/bg-01.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+.prices .banner .banner-content {
+  background-color: #403d51e5;
+  padding: 10% 16%;
+  text-align: center;
+  color: #FFF;
+}
+.prices .banner .banner-content .banner-heading {
+  text-shadow: 0px 3px 6px #00000075;
+}
+.prices .banner .banner-content .banner-sub-heading {
+  text-shadow: 0px 3px 6px #00000075;
+  margin: 48px 0;
+}
+.prices .banner .banner-content .banner-btn {
+  font-family: "Inter", sans-serif;
+  padding: 16px;
+}
+.prices .img-holder {
+  margin-top: -10%;
+  text-align: center;
+}
+.prices .img-holder > img {
+  width: 55%;
+}
+.prices .content-container-upper-one .content-container-inner .inner-block {
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.prices .content-container-upper-one .content-container-inner .inner-block:hover, .prices .content-container-upper-one .content-container-inner .inner-block:focus {
+  transform: scale(1.1);
+}
+.prices .content-container-upper-one .content-container-inner .inner-block .content-container-inner-section {
+  height: 225px;
+  box-shadow: 0 2px 10px #00000020;
+  padding: 16px;
+  border-radius: 8px;
+}
+.prices .content-container-upper-one .content-container-inner .inner-block .content-container-inner-section img {
+  width: 55px;
+  height: 55px;
+  object-fit: contain;
+  margin-top: 8px;
+  margin-bottom: 24px;
+}
+.prices .content-container-upper-one .content-container-inner .inner-block .content-container-inner-section p {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  height: 4.5rem;
+  margin-bottom: 0;
+}
+.prices .content-container-upper-two {
+  background-color: #F6F9FC;
+  padding: 56px 0;
+}
+.prices .content-container-upper-two .content-container-inner .content-container-inner-img > img {
+  width: 100%;
+}
+.prices .content-container-upper-two .content-container-inner .content-container-inner-section p:first-child {
+  color: #48a955;
+  font-family: "Inter", sans-serif;
+}
+.prices .content-container-upper-two .content-container-inner .content-container-inner-section h4 {
+  margin-bottom: 16px;
+}
+.prices .banner-icon {
+  background-color: #007aca;
+  background-image: url(../images/bg-icon.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 150% auto;
+}
+.prices .banner-icon .banner-icon-inner {
+  background-color: #000000d5;
+  padding: 76px 16px;
+}
+.prices .banner-icon .banner-icon-inner > h2 {
+  color: #FFF;
+  text-shadow: 0px 2px 6px #00000075;
+}
+.prices .banner-icon .banner-icon-inner > p {
+  color: #FFF;
+  text-shadow: 0px 2px 6px #00000075;
+}
+.prices .banner-icon .banner-icon-inner .banner-icon-inner-section {
+  box-shadow: 0 2px 10px #00000020;
+  padding: 36px 24px;
+  border-radius: 8px;
+  background-color: #FFF;
+}
+.prices .banner-icon .banner-icon-inner .banner-icon-inner-section .green-ribbon {
+  position: absolute;
+  right: -36px;
+  transform: rotate(40deg);
+  top: 24px;
+  font-size: 10px;
+  background: #28a745;
+  color: #FFFF;
+  display: block;
+  width: 145px;
+  text-align: center;
+  padding: 4px 0;
+}
+.prices .banner-icon .banner-icon-inner .banner-icon-inner-section .sub-heading {
+  color: #48a955;
+}
+.prices .banner-icon .banner-icon-inner .banner-icon-inner-section .sub-heading span {
+  font-size: 14px;
+  font-weight: 400;
+}
+.prices .banner-icon .banner-icon-inner .banner-icon-inner-section ul {
+  display: flex;
+  display: -ms-flex;
+  display: -webkit-flex;
+  flex-direction: column;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  row-gap: 8px;
+}
+.prices .banner-icon .banner-icon-inner .banner-icon-inner-section ul li {
+  display: flex;
+  align-items: baseline;
+}
+.prices .banner-icon .banner-icon-inner .banner-icon-inner-section ul li .fa-check-circle {
+  color: #48a955;
+}
+.prices .banner-icon .banner-icon-inner .banner-icon-btn {
+  background-color: #FFF;
+  color: #48a955;
+  padding: 16px 24px;
+  margin-top: 24px;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  box-shadow: 0 2px 10px #00000050;
+}
+.prices .banner-icon .banner-icon-inner .banner-icon-btn:hover, .prices .banner-icon .banner-icon-inner .banner-icon-btn:focus {
+  color: #FFF;
+  background-color: #358835;
+}
+
+@media (min-width: 992px) {
+  .prices .banner .banner-content .banner-heading {
+    font-size: 40px;
+  }
+  .prices .banner .banner-content .banner-sub-heading {
+    font-size: 24px;
+  }
+  .prices .banner .banner-content .banner-btn {
+    font-size: 18px;
+  }
+}
+@media (max-width: 991px) {
+  .prices .banner .banner-content .banner-sub-heading {
+    margin: 24px 0;
+  }
+  .prices .banner .banner-content .banner-btn {
+    padding: 10px 8px;
+  }
+}
+@media (max-width: 575px) {
+  .prices .banner .banner-content {
+    padding: 6% 16% 14%;
+  }
+  .prices .banner .banner-content .banner-sub-heading {
+    margin: 24px 0;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
