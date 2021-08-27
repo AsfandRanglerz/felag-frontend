@@ -10,11 +10,11 @@
         <div class="img-holder">
             <img src="images/mockup.png" />
         </div>
-        <div class="content-container-upper-one">
+        <div class="mb-lg-0 mb-4 content-container-upper-one">
             <div class="container text-center">
                 <h2>How does it work?</h2>
                 <p>It is easy to get started with Felag management system</p>
-                <div class="row mx-0 content-container-inner">
+                <div class="row mx-0 content-container-inner justify-content-center">
                     <div class="col-lg-4 col-md-6 my-lg-5 my-2">
                         <a href="#" class="d-inline-block text-reset text-decoration-none inner-block">
                             <div class="content-container-inner-section">

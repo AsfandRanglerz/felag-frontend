@@ -63,7 +63,7 @@
                             <a class="nav-link" href="./precise-rent-contract.php">Precise Rent Contract</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Prices</a>
+                            <a class="nav-link" href="./prices.php">Prices</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link" href="#" id="dropdownNavTwo" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

@@ -62,7 +62,7 @@
         }
     }
     .content-container-upper-two {
-        background-color: $themelightGreyBgColor;
+        background-color: $themeLightGreyBgColor;
         padding: 56px 0;
         .content-container-inner {
             .content-container-inner-img {
@@ -199,6 +199,14 @@
                 .banner-sub-heading {
                     margin: 24px 0;
                 }
+            }
+        }
+        .content-container-upper-two {
+            padding: 24px 0;
+        }
+        .banner-icon {
+            .banner-icon-inner {
+                padding: 24px 16px;
             }
         }
     }
