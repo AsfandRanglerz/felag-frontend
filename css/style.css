@@ -922,42 +922,6 @@ body .custom-control-label {
   border-radius: 8px;
   background-color: #FFF;
 }
-.contact-us .banner-icon .banner-icon-inner .banner-icon-inner-section .green-ribbon {
-  position: absolute;
-  right: -36px;
-  transform: rotate(40deg);
-  top: 24px;
-  font-size: 10px;
-  background: #28a745;
-  color: #FFFF;
-  display: block;
-  width: 145px;
-  text-align: center;
-  padding: 4px 0;
-}
-.contact-us .banner-icon .banner-icon-inner .banner-icon-inner-section .sub-heading {
-  color: #48a955;
-}
-.contact-us .banner-icon .banner-icon-inner .banner-icon-inner-section .sub-heading span {
-  font-size: 14px;
-  font-weight: 400;
-}
-.contact-us .banner-icon .banner-icon-inner .banner-icon-inner-section ul {
-  display: flex;
-  display: -ms-flex;
-  display: -webkit-flex;
-  flex-direction: column;
-  -ms-flex-direction: column;
-  -webkit-flex-direction: column;
-  row-gap: 8px;
-}
-.contact-us .banner-icon .banner-icon-inner .banner-icon-inner-section ul li {
-  display: flex;
-  align-items: baseline;
-}
-.contact-us .banner-icon .banner-icon-inner .banner-icon-inner-section ul li .fa-check-circle {
-  color: #48a955;
-}
 .contact-us .banner-icon .banner-icon-inner .banner-icon-btn {
   background-color: #FFF;
   color: #48a955;
