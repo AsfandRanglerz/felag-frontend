@@ -348,6 +348,9 @@ body .custom-control-label {
     font-size: 10px;
   }
 }
+.home {
+  display: none;
+}
 .home .banner {
   background-image: url(https://presisutleie.no/wp-content/uploads/2021/02/bg-01.jpg);
   background-position: center center;

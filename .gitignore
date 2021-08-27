@@ -5,6 +5,7 @@
 /.idea/php.xml
 /.idea/modules.xml
 /.idea/laravel-plugin.xml
+/.idea/workspace.xml
 /storage/logs/laravel.log
 /vendor
 .env
