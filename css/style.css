@@ -1101,6 +1101,11 @@ body .custom-control-label {
   .management-system .banner .banner-content {
     padding: 8% 3% 4%;
   }
+  .management-system .banner-icon .banner-icon-inner .banner-content-half .img-holder {
+    width: 100%;
+    height: 255px;
+    margin: 0 auto;
+  }
   .management-system .content-container-upper-two .content-container-inner .content-container-inner-img > img {
     width: 100%;
   }
