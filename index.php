@@ -2,20 +2,20 @@
     <div class="home">
         <section class="banner">
             <div class="banner-content">
-                <h1 class="banner-heading">Home rental made safe and easy for you and your tenants</h1>
-                <h4 class="banner-sub-heading">Organize your rental business today!</h4>
-                <a href="#" class="btn btn-bg banner-btn">It's completely free!</a>
+                <h1 class="banner-heading wow fadeInUp" data-wow-duration="2s">Home rental made safe and easy for you and your tenants</h1>
+                <h4 class="banner-sub-heading wow fadeInUp" data-wow-duration="2s">Organize your rental business today!</h4>
+                <a href="#" class="btn btn-bg banner-btn wow fadeInUp" data-wow-duration="2s">It's completely free!</a>
             </div>
         </section>
-        <div class="img-holder">
+        <div class="img-holder wow fadeInDown" data-wow-duration="2s">
             <img src="images/mockup.png" />
         </div>
         <div class="mb-lg-0 mb-4 content-container-upper-one">
             <div class="container text-center">
-                <h2>How does it work?</h2>
-                <p>It is easy to get started with Felag management system</p>
+                <h2 class="wow fadeInDown" data-wow-duration="2s">How does it work?</h2>
+                <p class="wow fadeInDown" data-wow-duration="2s">It is easy to get started with Felag management system</p>
                 <div class="row mx-0 content-container-inner justify-content-center">
-                    <div class="col-lg-4 col-md-6 my-lg-5 my-2">
+                    <div class="col-lg-4 col-md-6 my-lg-5 my-2 wow fadeInUp" data-wow-duration="2s">
                         <a href="#" class="d-inline-block text-reset text-decoration-none inner-block">
                             <div class="content-container-inner-section">
                                 <img src="https://w7.pngwing.com/pngs/312/1018/png-transparent-orange-blue-and-black-logo-logo-circle-technology-circle-blue-text-information-technology-thumbnail.png" />
@@ -24,7 +24,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-lg-4 col-md-6 my-lg-5 my-2">
+                    <div class="col-lg-4 col-md-6 my-lg-5 my-2 wow fadeInDown" data-wow-duration="2s">
                         <a href="#" class="d-inline-block text-reset text-decoration-none inner-block">
                             <div class="content-container-inner-section">
                                 <img src="https://w7.pngwing.com/pngs/312/1018/png-transparent-orange-blue-and-black-logo-logo-circle-technology-circle-blue-text-information-technology-thumbnail.png" />
@@ -33,7 +33,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-lg-4 col-md-6 my-lg-5 my-2">
+                    <div class="col-lg-4 col-md-6 my-lg-5 my-2 wow fadeInUp" data-wow-duration="2s">
                         <a href="#" class="d-inline-block text-reset text-decoration-none inner-block">
                             <div class="content-container-inner-section">
                                 <img src="https://w7.pngwing.com/pngs/312/1018/png-transparent-orange-blue-and-black-logo-logo-circle-technology-circle-blue-text-information-technology-thumbnail.png" />
@@ -47,13 +47,13 @@
         </div>
         <div class="content-container-upper-two">
             <div class="container-lg">
-                <div class="row mx-0 content-container-inner">
-                    <div class="col-md-6">
+                <div class="row mx-0 align-items-center content-container-inner">
+                    <div class="col-md-6 wow fadeInDown" data-wow-duration="2s">
                         <div class="content-container-inner-img">
                             <img src="images/mockup.png" />
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 wow fadeInUp" data-wow-duration="2s">
                         <div class="content-container-inner-section">
                             <p>Web-based management system</p>
                             <h4>Felag management system</h4>
@@ -62,8 +62,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="row mx-0 my-md-3 my-5 content-container-inner">
-                    <div class="col-md-6">
+                <div class="row mx-0 my-md-3 my-5 align-items-center content-container-inner">
+                    <div class="col-md-6 wow fadeInUp" data-wow-duration="2s">
                         <div class="content-container-inner-section">
                             <p>Lease with BankID signing</p>
                             <h4>Easy with bankID signing</h4>
@@ -71,7 +71,7 @@
                             <a class="btn btn-bg">Get started now!</a>
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 wow fadeInDown" data-wow-duration="2s">
                         <div class="content-container-inner-img">
                             <img src="images/bank-id.png" />
                         </div>
@@ -81,11 +81,11 @@
         </div>
         <div class="banner-icon">
             <div class="banner-icon-inner">
-                <h2 class="text-center">Prices and subscription plans</h2>
-                <p class="text-center">Everything from a completely simple and digital rental contract, to guaranteed rent due every single month</p>
+                <h2 class="text-center wow fadeInUp" data-wow-duration="2s">Prices and subscription plans</h2>
+                <p class="text-center wow fadeInUp" data-wow-duration="2s">Everything from a completely simple and digital rental contract, to guaranteed rent due every single month</p>
                     <div class="container-lg px-md-3 px-0">
                         <div class="row mx-0">
-                            <div class="col-md-4 my-md-5 my-2 px-md-3 px-0">
+                            <div class="col-md-4 my-md-5 my-2 px-md-3 px-0 wow fadeInUp" data-wow-duration="2s">
                                 <div class="banner-icon-inner-section">
                                     <h5>Simple rental contract</h5>
                                     <h4 class="my-3 sub-heading">For free</h4>
@@ -97,7 +97,7 @@
                                     <small>Only 1 free rental contract per customer</small>
                                 </div>
                             </div>
-                            <div class="col-md-4 my-md-5 my-2 px-md-3 px-0">
+                            <div class="col-md-4 my-md-5 my-2 px-md-3 px-0 wow fadeInDown" data-wow-duration="2s">
                                 <div class="position-relative overflow-hidden banner-icon-inner-section">
                                     <span class="green-ribbon">Guarantee</span>
                                     <h5>Rent guarantee</h5>
@@ -121,7 +121,7 @@
                                     <a class="w-100 mt-4 btn btn-bg">Select</a>
                                 </div>
                             </div>
-                            <div class="col-md-4 my-md-5 my-2 px-md-3 px-0">
+                            <div class="col-md-4 my-md-5 my-2 px-md-3 px-0 wow fadeInUp" data-wow-duration="2s">
                                 <div class="banner-icon-inner-section">
                                     <h5 class="heading">Recommended</h5>
                                     <h4 class="my-3 sub-heading">49,- <span>per tenancy / month</span></h4>
@@ -144,13 +144,13 @@
         </div>
         <div class="content-container-upper-two">
             <div class="container-lg">
-                <div class="row mx-0 content-container-inner">
-                    <div class="col-md-6">
+                <div class="row mx-0 align-items-center content-container-inner">
+                    <div class="col-md-6 wow fadeInUp" data-wow-duration="2s">
                         <div class="content-container-inner-img">
                             <img src="images/mockup.png" />
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 wow fadeInDown" data-wow-duration="2s">
                         <div class="content-container-inner-section">
                             <p>Collection of rent</p>
                             <h4>Safe and easy collection of rent</h4>
@@ -159,8 +159,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="row mx-0 mt-3 content-container-inner">
-                    <div class="col-md-6">
+                <div class="row mx-0 mt-3 align-items-center content-container-inner">
+                    <div class="col-md-6 wow fadeInDown" data-wow-duration="2s">
                         <div class="content-container-inner-section">
                             <p>Rent guarantee from Aprila Bank</p>
                             <h4>Guaranteed paid on due date each month</h4>
@@ -168,7 +168,7 @@
                             <a class="btn btn-bg">Get started now!</a>
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 wow fadeInUp" data-wow-duration="2s">
                         <div class="content-container-inner-img">
                             <img src="images/bank-id.png" />
                         </div>
@@ -178,9 +178,9 @@
         </div>
         <div class="banner-icon">
             <div class="text-center banner-icon-inner">
-                <h2>Get started with Felag Rentals for free now!</h2>
-                <p>You can create your first rental contract in less than 2 minutes.</p>
-                <a class="btn banner-icon-btn">It's completely free!</a>
+                <h2 class="wow fadeInUp" data-wow-duration="2s">Get started with Felag Rentals for free now!</h2>
+                <p class="wow fadeInUp" data-wow-duration="2s">You can create your first rental contract in less than 2 minutes.</p>
+                <a class="btn banner-icon-btn wow fadeInUp" data-wow-duration="2s">YouIt's completely free!</a>
             </div>
         </div>
     </div>

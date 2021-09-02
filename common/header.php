@@ -8,12 +8,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" type="image/png" href="images/header/presis-logo-white.svg">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"/>
+        <link rel="stylesheet" href="css/animate.min.css"/>
         <link rel="stylesheet" href="css/bootstrap-4.5.3.min.css">
         <link rel="stylesheet" href="css/poppins.css">
-<!--        <link rel="stylesheet" href="css/open-sans.css">-->
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" rel="stylesheet">
+        <link  rel="stylesheet" href="css/inter.css">
         <link rel="stylesheet" href="css/lightgallery.css" />
+        <link rel="stylesheet" href="plugins/WOW-master/css/animate.css">
         <link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
     <!--paste this code under the head tag-->
@@ -22,7 +22,7 @@
     </div>
     <!--paste this code under the head tag-->
     <body>
-        <nav class="navbar navbar-expand-lg header-navbar">
+        <nav class="navbar navbar-expand-lg header-navbar wow fadeInUp" data-wow-duration="2s">
             <div class="container">
                 <div class="d-flex align-items-center justify-content-between navbar-brand-toggle-outer main-nav-bar">
                     <a class="mr-0 navbar-brand" href="./">
@@ -42,7 +42,7 @@
                             <div class="dropdown-menu animated-dropdown slideIn" aria-labelledby="dropdownNavOne">
                                 <div class="row">
                                     <div class="col-md-4 dropdown-menu-section">
-                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="./management-system.php">Management System</a>
                                         <a class="dropdown-item" href="#">Another action</a>
                                         <a class="dropdown-item" href="#">Something else here</a>
                                     </div>

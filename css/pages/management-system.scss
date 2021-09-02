@@ -1,56 +1,17 @@
-.home {
+.management-system {
     .banner {
-        background-image: url(https://presisutleie.no/wp-content/uploads/2021/02/bg-01.jpg);
+        background-image: url(./../images/precise-rent-banner-img.jpg);
         background-position: center center;
         background-size: cover;
         .banner-content {
-            background-color: #403d51e5;
-            padding: 10% 16%;
-            text-align: center;
+            background-color: #1e7e348f;
+            padding: 8% 8% 4%;
             color: #FFF;
-            .banner-heading {
-                text-shadow: 0px 3px 6px $themeTextShadow;
-            }
-            .banner-sub-heading {
-                text-shadow: 0px 3px 6px $themeTextShadow;
-                margin: 48px 0;
-            }
-            .banner-btn {
-                font-family: 'Inter', sans-serif;
-                padding: 16px;
-            }
-        }
-    }
-    .img-holder {
-        margin-top: -10%;
-        text-align: center;
-        > img {
-            width: 55%;
-        }
-    }
-    .content-container-upper-one {
-        .content-container-inner {
-            .inner-block {
-                .content-container-inner-section {
-                    height: 225px;
-                    box-shadow: 0 2px 10px $themeBoxShadow;
-                    padding: 16px;
-                    border-radius: 8px;
-                    img {
-                        width: 55px;
-                        height: 55px;
-                        object-fit: contain;
-                        margin-top: 8px;
-                        margin-bottom: 24px;
-                    }
-                    p {
-                        overflow: hidden;
-                        display: -webkit-box;
-                        -webkit-box-orient: vertical;
-                        -webkit-line-clamp: 3;
-                        height: 4.5rem;
-                        margin-bottom: 0;
-                    }
+            .banner-content-block {
+                background-color: #403D51D9;
+                box-shadow: 0 2px 10px $themeBoxShadow;
+                .banner-heading {
+                    text-shadow: 0px 3px 6px $themeTextShadow;
                 }
             }
         }
@@ -78,6 +39,13 @@
         }
     }
     .banner-icon {
+        .light-grey-bg {
+            background-color: #f6f9fcf5!important;
+            .heading, .p-text {
+                color: #000!important;
+                text-shadow: none!important;
+            }
+        }
         background-color: #007aca;
         background-image: url(../images/bg-icon.svg);
         background-position: center center;
@@ -90,9 +58,24 @@
                 color: #FFF;
                 text-shadow: 0px 2px 6px $themeTextShadow;
             }
-            >p {
+            > p {
                 color: #FFF;
                 text-shadow: 0px 2px 6px $themeTextShadow;
+            }
+            .banner-content-half {
+                .img-holder {
+                    width: 405px;
+                    height: 325px;
+                    margin: 0 auto;
+                }
+                > h2 {
+                    color: #FFF;
+                    text-shadow: 0px 2px 6px $themeTextShadow;
+                }
+                > p {
+                    color: #FFF;
+                    text-shadow: 0px 2px 6px $themeTextShadow;
+                }
             }
             .banner-icon-inner-section {
                 box-shadow: 0 2px 10px $themeBoxShadow;
@@ -155,7 +138,12 @@
     }
 }
 @media (max-width: 1199px) {
-    .home {
+    .management-system {
+        .banner {
+            .banner-content {
+                padding: 8% 3% 4%;
+            }
+        }
         .content-container-upper-two {
             .content-container-inner {
                 .content-container-inner-img {
@@ -168,46 +156,26 @@
     }
 }
 @media (min-width: 992px) {
-    .home {
+    .management-system {
         .banner {
             .banner-content {
-                .banner-heading {
-                    font-size: 40px;
-                }
-                .banner-sub-heading {
-                    font-size: 24px;
-                }
-                .banner-btn {
-                    font-size: 18px;
+                .banner-content-block {
+                    .banner-btn {
+                        font-size: 18px;
+                        padding: 10px;
+                    }
                 }
             }
         }
     }
 }
 @media (max-width: 991px) {
-    .home {
-        .banner {
-            .banner-content {
-                .banner-sub-heading {
-                    margin: 24px 0;
-                }
-                .banner-btn {
-                    padding: 10px 8px;
-                }
-            }
-        }
+    .management-system {
+
     }
 }
 @media (max-width: 575px) {
-    .home {
-        .banner {
-            .banner-content {
-                padding: 6% 16% 14%;
-                .banner-sub-heading {
-                    margin: 24px 0;
-                }
-            }
-        }
+    .management-system {
         .content-container-upper-two {
             padding: 24px 0;
         }

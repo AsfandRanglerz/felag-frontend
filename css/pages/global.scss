@@ -4,6 +4,9 @@
     font-family: 'Poppins', sans-serif;
 }
 body {
+    b {
+        font-family: "Inter", sans-serif;
+    }
     label {
         font-family: "Inter", sans-serif;
     }
@@ -98,7 +101,9 @@ body {
         transition: all 0.3s;
         &:hover, &:focus {
             color: $themeDarkBtnLinkColor;
-            transform: scale(1.1);
+            -ms-transform: scale(0.9);
+            -webkit-transform: scale(0.9);
+            transform: scale(0.9);
         }
     }
     h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {

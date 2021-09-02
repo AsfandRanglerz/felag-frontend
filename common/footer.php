@@ -1,5 +1,5 @@
         <footer class="footer">
-            <div class="footer-inner-upper">
+            <div class="footer-inner-upper wow fadeInUp" data-wow-duration="2s">
                 <div class="footer-logo">
 <!--                    <img src="images/footer/footer-logo.svg" />-->
                     <span class="footer-logo-text">Logo</span>
@@ -41,7 +41,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="footer-inner-below">
+            <div class="footer-inner-below wow fadeInUp" data-wow-duration="2s">
                 <p class="mb-0">Powered by Garantihuset AS</p>
                 <p class="copyright-text">Copyright <span id="current-year"></span> Precise Rentals</p>
             </div>
@@ -51,9 +51,23 @@
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap-4.5.0.min.js"></script>
     <script src="js/lightgallery-all.min.js"></script>
+        <script src="plugins/WOW-master/js/wow.min.js"></script>
     <script src="js/main.js"></script>
         <script>
             $(function() {
+                /*wow animation*/
+                wow = new WOW(
+                    {
+                        boxClass:     'wow',      // default
+                        animateClass: 'animated', // default
+                        offset:       0,          // default
+                        mobile:       true,       // default
+                        live:         true        // default
+                    }
+                )
+                wow.init();
+                /*wow animation*/
+
                 /*footer*/
                 var currentYear = (new Date).getFullYear();
                 $('.footer #current-year').text(currentYear);

@@ -2,7 +2,7 @@
 <div class="contact-us">
     <section class="banner">
         <div class="banner-content">
-            <div class="col-md-8 mx-auto p-md-5 p-4 banner-content-block">
+            <div class="col-md-8 mx-auto p-md-5 p-4 banner-content-block wow fadeInLeft" data-wow-duration="2s">
                 <h3 class="banner-heading">Help and support</h3>
                 <p class="mt-4 mb-0 text-white">Feel free to send us an e-mail and we will help you as soon as possible! PS: Precise Rental is still in beta, and we develop the support pages as we receive questions from users.</p>
             </div>
@@ -10,8 +10,8 @@
     </section>
     <div class="banner-icon">
         <div class="banner-icon-inner light-grey-bg">
-            <h2 class="mb-md-4 text-center heading">Contact Us</h2>
-            <div class="container-lg px-md-3 px-0">
+            <h2 class="mb-md-4 text-center heading wow fadeInUp" data-wow-duration="2s">Contact Us</h2>
+            <div class="container-lg px-md-3 px-0 wow fadeInUp" data-wow-duration="2s">
                 <div class="row mx-0 justify-content-center">
                     <div class="my-md-0 my-2 px-0 col-lg-7 col-md-9">
                         <div class="banner-icon-inner-section">
@@ -52,9 +52,9 @@
     </div>
     <div class="banner-icon">
         <div class="text-center banner-icon-inner">
-            <h2>Get started with Felag Rentals for free now!</h2>
-            <p>You can create your first rental contract in less than 2 minutes.</p>
-            <a class="btn banner-icon-btn">It's completely free!</a>
+            <h2 class="wow fadeInUp" data-wow-duration="2s">Get started with Felag Rentals for free now!</h2>
+            <p class="wow fadeInUp" data-wow-duration="2s">You can create your first rental contract in less than 2 minutes.</p>
+            <a class="btn banner-icon-btn wow fadeInUp" data-wow-duration="2s">It's completely free!</a>
         </div>
     </div>
 </div>
