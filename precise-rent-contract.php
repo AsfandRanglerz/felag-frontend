@@ -25,43 +25,43 @@
                 <div class="mb-sm-4 mb-3 col-lg-4 col-sm-6 wow fadeInUp" data-wow-duration="2s">
                     <div class="h-100 light-box-shadow block-content">
                         <span class="number">1</span>
-                        <h4 class="heading">Digital</h4>
-                        <p>You create the entire rental contract easily on your own PC, mobile or tablet - zero pen and paper, zero nonsense.</p>
+                        <h5 class="mb-3 heading">Digital</h5>
+                        <p class="mb-0">You create the entire rental contract easily on your own PC, mobile or tablet - zero pen and paper, zero nonsense.</p>
                     </div>
                 </div>
                 <div class="mb-sm-4 mb-3 col-lg-4 col-sm-6 wow fadeInUp" data-wow-duration="2s">
                     <div class="h-100 light-box-shadow block-content">
                         <span class="number">2</span>
-                        <h4 class="heading">Lots of great tips and advice</h4>
-                        <p>You will be guided through the entire process from A to Z - we help you make sure that you choose the most appropriate choices, and that you avoid breaking the rent law.</p>
+                        <h5 class="mb-3 heading">Lots of great tips and advice</h5>
+                        <p class="mb-0">You will be guided through the entire process from A to Z - we help you make sure that you choose the most appropriate choices, and that you avoid breaking the rent law.</p>
                     </div>
                 </div>
                 <div class="mb-sm-4 mb-3 col-lg-4 col-sm-6 wow fadeInUp" data-wow-duration="2s">
                     <div class="h-100 light-box-shadow block-content">
                         <span class="number">3</span>
-                        <h4 class="heading">Signing with BankID</h4>
-                        <p>Signing of the rental contract with BankID. This makes the signing process simple, safe and smooth for both landlord and tenant.</p>
+                        <h5 class="mb-3 heading">Signing with BankID</h5>
+                        <p class="mb-0">Signing of the rental contract with BankID. This makes the signing process simple, safe and smooth for both landlord and tenant.</p>
                     </div>
                 </div>
                 <div class="mb-sm-4 mb-3 col-lg-4 col-sm-6 wow fadeInUp" data-wow-duration="2s">
                     <div class="h-100 light-box-shadow block-content">
                         <span class="number">4</span>
-                        <h4 class="heading">Legally approved lease</h4>
-                        <p>Our rental contact safeguards the Rent Act, as well as the best interests of both the landlord and tenant. Secure lease for both parties. The lease is based on the Consumer Council's lease.</p>
+                        <h5 class="mb-3 heading">Legally approved lease</h5>
+                        <p class="mb-0">Our rental contact safeguards the Rent Act, as well as the best interests of both the landlord and tenant. Secure lease for both parties. The lease is based on the Consumer Council's lease.</p>
                     </div>
                 </div>
                 <div class="mb-sm-4 mb-3 col-lg-4 col-sm-6 wow fadeInUp" data-wow-duration="2s">
                     <div class="h-100 light-box-shadow block-content">
                         <span class="number">5</span>
-                        <h4 class="heading">Everything stored digitally</h4>
-                        <p>After signing the rental contract, you will have access to a PDF of the file, which you will have stored digitally with all signatures in place.</p>
+                        <h5 class="mb-3 heading">Everything stored digitally</h5>
+                        <p class="mb-0">After signing the rental contract, you will have access to a PDF of the file, which you will have stored digitally with all signatures in place.</p>
                     </div>
                 </div>
                 <div class="mb-sm-4 mb-3 col-lg-4 col-sm-6 wow fadeInUp" data-wow-duration="2s">
                     <div class="h-100 light-box-shadow block-content">
                         <span class="number">6</span>
-                        <h4 class="heading">For free!</h4>
-                        <p>No hidden fees, no nonsense. Rent contract with BankID signing is completely free at Presis Utleie (maximum 1 lease free per customer).</p>
+                        <h5 class="mb-3 heading">For free!</h5>
+                        <p class="mb-0">No hidden fees, no nonsense. Rent contract with BankID signing is completely free at Presis Utleie (maximum 1 lease free per customer).</p>
                     </div>
                 </div>
             </div>

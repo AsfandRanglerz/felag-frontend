@@ -42,19 +42,23 @@
                             <div class="dropdown-menu animated-dropdown slideIn" aria-labelledby="dropdownNavOne">
                                 <div class="row">
                                     <div class="col-md-4 dropdown-menu-section">
-                                        <a class="dropdown-item" href="./management-system.php">Management System</a>
-                                        <a class="dropdown-item" href="#">Another action</a>
-                                        <a class="dropdown-item" href="#">Something else here</a>
+                                        <div class="d-flex flex-column">
+                                            <a class="dropdown-item d-inline-block" href="./management-system.php">Management System</a>
+                                            <a class="dropdown-item d-inline-block" href="./precise-rent-contract.php">Digital Lease</a>
+                                            <a class="dropdown-item d-inline-block" href="#">Something else here</a>
+                                        </div>
                                     </div>
                                     <div class="col-md-4 dropdown-menu-section">
-                                        <a class="dropdown-item" href="#">Action</a>
-                                        <a class="dropdown-item" href="#">Another action</a>
-                                        <a class="dropdown-item" href="#">Something else here</a>
+                                        <div class="d-flex flex-column">
+                                            <a class="dropdown-item d-inline-block" href="./deposit-account.php">Deposit Account</a>
+                                            <a class="dropdown-item d-inline-block" href="#">Another action</a>
+                                            <a class="dropdown-item d-inline-block" href="./occupancy-protocol.php">Occupancy Protocol</a>
+                                        </div>
                                     </div>
                                     <div class="col-md-4 dropdown-menu-section">
-                                        <a class="dropdown-item" href="#">Action</a>
-                                        <a class="dropdown-item" href="#">Another action</a>
-                                        <a class="dropdown-item" href="#">Something else here</a>
+                                        <a class="dropdown-item d-inline-block" href="#">Action</a>
+                                        <a class="dropdown-item d-inline-block" href="#">Another action</a>
+                                        <a class="dropdown-item d-inline-block" href="./prices.php">Prices</a>
                                     </div>
                                 </div>
                             </div>

@@ -10,6 +10,9 @@ body {
   /*dropdown animations*/
   /*dropdown animations*/
 }
+body .l-spacing-6px {
+  letter-spacing: 6px;
+}
 body b {
   font-family: "Inter", sans-serif;
 }
@@ -133,7 +136,7 @@ body h6 {
   font-family: "Inter", sans-serif;
 }
 body .small, body small {
-  font-size: 93% !important;
+  font-size: 83% !important;
 }
 body .btn {
   font-size: 14px;
@@ -238,7 +241,7 @@ body .custom-control-label {
     font-size: 14px;
   }
   body .small, body small {
-    font-size: 87% !important;
+    font-size: 67% !important;
   }
 }
 @media (max-width: 575px) {
@@ -731,13 +734,6 @@ body .custom-control-label {
   }
 }
 @media (max-width: 991px) {
-  .precise-rent-contract {
-    /*.content-container-upper-five {
-        .img-container {
-            height: 225px;
-        }
-    }*/
-  }
   .precise-rent-contract .content-container-upper-two {
     padding: 30px 0 30px 0;
   }
@@ -1121,6 +1117,328 @@ body .custom-control-label {
     padding: 24px 0;
   }
   .management-system .banner-icon .banner-icon-inner {
+    padding: 24px 16px;
+  }
+}
+.occupancy-protocol .banner {
+  background-image: url(./../images/precise-rent-banner-img.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+.occupancy-protocol .banner .banner-content {
+  background-color: #1e7e348f;
+  padding: 8% 8% 4%;
+  color: #FFF;
+}
+.occupancy-protocol .banner .banner-content .banner-content-block {
+  background-color: #403D51D9;
+  box-shadow: 0 2px 10px #00000020;
+}
+.occupancy-protocol .banner .banner-content .banner-content-block .banner-heading {
+  text-shadow: 0px 3px 6px #00000075;
+}
+.occupancy-protocol .content-container-upper-one .img-holder {
+  height: 300px;
+  width: 155px;
+  margin: 0 auto;
+}
+.occupancy-protocol .content-container-upper-two {
+  background-color: #F6F9FC;
+  padding: 80px 0 48px 0;
+}
+.occupancy-protocol .content-container-upper-two .block-content {
+  padding: 24px 16px;
+  border-radius: 8px;
+  background-color: #FFF;
+}
+.occupancy-protocol .content-container-upper-two .block-content .heading {
+  display: flex;
+  column-gap: 8px;
+}
+.occupancy-protocol .content-container-upper-two .block-content .number {
+  color: #48a955;
+  font-family: "Inter", sans-serif;
+  width: 35px;
+  height: 35px;
+  border: 2px solid;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-bottom: 16px;
+}
+.occupancy-protocol .banner-icon {
+  background-color: #007aca;
+  background-image: url(../images/bg-icon.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 150% auto;
+}
+.occupancy-protocol .banner-icon .light-grey-bg {
+  background-color: #f6f9fcf5 !important;
+}
+.occupancy-protocol .banner-icon .light-grey-bg .heading, .occupancy-protocol .banner-icon .light-grey-bg .p-text {
+  color: #000 !important;
+  text-shadow: none !important;
+}
+.occupancy-protocol .banner-icon .banner-icon-inner {
+  background-color: #000000d5;
+  padding: 76px 16px;
+}
+.occupancy-protocol .banner-icon .banner-icon-inner > h2 {
+  color: #FFF;
+  text-shadow: 0px 2px 6px #00000075;
+}
+.occupancy-protocol .banner-icon .banner-icon-inner > p {
+  color: #FFF;
+  text-shadow: 0px 2px 6px #00000075;
+}
+.occupancy-protocol .banner-icon .banner-icon-inner .banner-content-half .img-holder {
+  width: 405px;
+  height: 325px;
+  margin: 0 auto;
+}
+.occupancy-protocol .banner-icon .banner-icon-inner .banner-content-half > h2 {
+  color: #FFF;
+  text-shadow: 0px 2px 6px #00000075;
+}
+.occupancy-protocol .banner-icon .banner-icon-inner .banner-content-half > p {
+  color: #FFF;
+  text-shadow: 0px 2px 6px #00000075;
+}
+.occupancy-protocol .banner-icon .banner-icon-inner .banner-icon-inner-section {
+  box-shadow: 0 2px 10px #00000020;
+  padding: 36px 24px;
+  border-radius: 8px;
+  background-color: #FFF;
+}
+.occupancy-protocol .banner-icon .banner-icon-inner .banner-icon-inner-section .green-ribbon {
+  position: absolute;
+  right: -36px;
+  transform: rotate(40deg);
+  top: 24px;
+  font-size: 10px;
+  background: #28a745;
+  color: #FFFF;
+  display: block;
+  width: 145px;
+  text-align: center;
+  padding: 4px 0;
+}
+.occupancy-protocol .banner-icon .banner-icon-inner .banner-icon-inner-section .sub-heading {
+  color: #48a955;
+}
+.occupancy-protocol .banner-icon .banner-icon-inner .banner-icon-inner-section .sub-heading span {
+  font-size: 14px;
+  font-weight: 400;
+}
+.occupancy-protocol .banner-icon .banner-icon-inner .banner-icon-inner-section ul {
+  display: flex;
+  display: -ms-flex;
+  display: -webkit-flex;
+  flex-direction: column;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  row-gap: 8px;
+}
+.occupancy-protocol .banner-icon .banner-icon-inner .banner-icon-inner-section ul li {
+  display: flex;
+  align-items: baseline;
+}
+.occupancy-protocol .banner-icon .banner-icon-inner .banner-icon-inner-section ul li .fa-check-circle {
+  color: #48a955;
+}
+.occupancy-protocol .banner-icon .banner-icon-inner .banner-icon-btn {
+  background-color: #FFF;
+  color: #48a955;
+  padding: 16px 24px;
+  margin-top: 24px;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  box-shadow: 0 2px 10px #00000050;
+}
+.occupancy-protocol .banner-icon .banner-icon-inner .banner-icon-btn:hover, .occupancy-protocol .banner-icon .banner-icon-inner .banner-icon-btn:focus {
+  color: #FFF;
+  background-color: #358835;
+}
+
+@media (max-width: 1199px) {
+  .occupancy-protocol .banner .banner-content {
+    padding: 8% 3% 4%;
+  }
+  .occupancy-protocol .banner-icon .banner-icon-inner .banner-content-half .img-holder {
+    width: 100%;
+    height: 255px;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 992px) {
+  .occupancy-protocol .banner .banner-content .banner-content-block .banner-btn {
+    font-size: 18px;
+    padding: 10px;
+  }
+}
+@media (max-width: 991px) {
+  .occupancy-protocol .content-container-upper-two {
+    padding: 30px 0 30px 0;
+  }
+}
+@media (max-width: 767px) {
+  .occupancy-protocol .content-container-upper-one .img-holder {
+    height: 240px;
+    width: 120px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 575px) {
+  .occupancy-protocol .banner-icon .banner-icon-inner {
+    padding: 24px 16px;
+  }
+}
+.deposit-account .banner {
+  background-image: url(./../images/precise-rent-banner-img.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+.deposit-account .banner .banner-content {
+  background-color: #1e7e348f;
+  padding: 8% 8% 4%;
+  color: #FFF;
+}
+.deposit-account .banner .banner-content .banner-content-block {
+  background-color: #403D51D9;
+  box-shadow: 0 2px 10px #00000020;
+}
+.deposit-account .banner .banner-content .banner-content-block .banner-heading {
+  text-shadow: 0px 3px 6px #00000075;
+}
+.deposit-account .content-container-upper-two {
+  background-color: #F6F9FC;
+  padding: 80px 0 48px 0;
+}
+.deposit-account .content-container-upper-two .block-content {
+  padding: 24px 16px;
+  border-radius: 8px;
+  background-color: #FFF;
+}
+.deposit-account .content-container-upper-two .block-content .heading {
+  display: flex;
+  column-gap: 8px;
+}
+.deposit-account .banner-icon {
+  background-color: #007aca;
+  background-image: url(../images/bg-icon.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 150% auto;
+}
+.deposit-account .banner-icon .banner-icon-inner {
+  background-color: #000000d5;
+  padding: 76px 16px;
+}
+.deposit-account .banner-icon .banner-icon-inner > h2 {
+  color: #FFF;
+  text-shadow: 0px 2px 6px #00000075;
+}
+.deposit-account .banner-icon .banner-icon-inner > p {
+  color: #FFF;
+  text-shadow: 0px 2px 6px #00000075;
+}
+.deposit-account .banner-icon .banner-icon-inner .banner-content-half .img-holder {
+  width: 405px;
+  height: 325px;
+  margin: 0 auto;
+}
+.deposit-account .banner-icon .banner-icon-inner .banner-content-half > h2 {
+  color: #FFF;
+  text-shadow: 0px 2px 6px #00000075;
+}
+.deposit-account .banner-icon .banner-icon-inner .banner-content-half > p {
+  color: #FFF;
+  text-shadow: 0px 2px 6px #00000075;
+}
+.deposit-account .banner-icon .banner-icon-inner .banner-icon-inner-section {
+  box-shadow: 0 2px 10px #00000020;
+  padding: 36px 24px;
+  border-radius: 8px;
+  background-color: #FFF;
+}
+.deposit-account .banner-icon .banner-icon-inner .banner-icon-inner-section .green-ribbon {
+  position: absolute;
+  right: -36px;
+  transform: rotate(40deg);
+  top: 24px;
+  font-size: 10px;
+  background: #28a745;
+  color: #FFFF;
+  display: block;
+  width: 145px;
+  text-align: center;
+  padding: 4px 0;
+}
+.deposit-account .banner-icon .banner-icon-inner .banner-icon-inner-section .sub-heading {
+  color: #48a955;
+}
+.deposit-account .banner-icon .banner-icon-inner .banner-icon-inner-section .sub-heading span {
+  font-size: 14px;
+  font-weight: 400;
+}
+.deposit-account .banner-icon .banner-icon-inner .banner-icon-inner-section ul {
+  display: flex;
+  display: -ms-flex;
+  display: -webkit-flex;
+  flex-direction: column;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  row-gap: 8px;
+}
+.deposit-account .banner-icon .banner-icon-inner .banner-icon-inner-section ul li {
+  display: flex;
+  align-items: baseline;
+}
+.deposit-account .banner-icon .banner-icon-inner .banner-icon-inner-section ul li .fa-check-circle {
+  color: #48a955;
+}
+.deposit-account .banner-icon .banner-icon-inner .banner-icon-btn {
+  background-color: #FFF;
+  color: #48a955;
+  padding: 16px 24px;
+  margin-top: 24px;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  box-shadow: 0 2px 10px #00000050;
+}
+.deposit-account .banner-icon .banner-icon-inner .banner-icon-btn:hover, .deposit-account .banner-icon .banner-icon-inner .banner-icon-btn:focus {
+  color: #FFF;
+  background-color: #358835;
+}
+
+@media (max-width: 1199px) {
+  .deposit-account .banner .banner-content {
+    padding: 8% 3% 4%;
+  }
+  .deposit-account .banner-icon .banner-icon-inner .banner-content-half .img-holder {
+    width: 100%;
+    height: 255px;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 992px) {
+  .deposit-account .banner .banner-content .banner-content-block .banner-btn {
+    font-size: 18px;
+    padding: 10px;
+  }
+}
+@media (max-width: 991px) {
+  .deposit-account .content-container-upper-two {
+    padding: 30px 0 30px 0;
+  }
+}
+@media (max-width: 575px) {
+  .deposit-account .banner-icon .banner-icon-inner {
     padding: 24px 16px;
   }
 }

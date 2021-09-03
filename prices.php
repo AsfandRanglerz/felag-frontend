@@ -23,7 +23,7 @@
                                 <li><span class="fa fa-check-circle mr-2"></span><span>Access to Felag Management System for free for 2 months</span></li>
                             </ul>
                             <a class="w-100 mt-4 mb-3 btn btn-bg">Select</a>
-                            <small>Only 1 free rental contract per customer</small>
+                            <small class="d-block text-center">Only 1 free rental contract per customer</small>
                         </div>
                     </div>
                     <div class="col-md-4 my-md-0 my-2 px-md-3 px-0 wow fadeInDown" data-wow-duration="2s">

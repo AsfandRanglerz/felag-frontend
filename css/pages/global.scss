@@ -4,6 +4,9 @@
     font-family: 'Poppins', sans-serif;
 }
 body {
+    .l-spacing-6px {
+        letter-spacing: 6px;
+    }
     b {
         font-family: "Inter", sans-serif;
     }
@@ -134,7 +137,7 @@ body {
         font-family: 'Inter', sans-serif;
     }
     .small, small {
-        font-size: 93%!important;
+        font-size: 83%!important;
     }
     .btn {
         font-size: 14px;
@@ -247,7 +250,7 @@ body {
             font-size: 14px;
         }
         .small, small {
-            font-size: 87% !important;
+            font-size: 67% !important;
         }
     }
 }

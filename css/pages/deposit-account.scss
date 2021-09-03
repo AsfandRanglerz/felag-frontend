@@ -1,4 +1,4 @@
-.management-system {
+.deposit-account {
     .banner {
         background-image: url(./../images/precise-rent-banner-img.jpg);
         background-position: center center;
@@ -18,34 +18,18 @@
     }
     .content-container-upper-two {
         background-color: $themeLightGreyBgColor;
-        padding: 56px 0;
-        .content-container-inner {
-            .content-container-inner-img {
-                > img {
-                    width: 85%;
-                }
-            }
-            .content-container-inner-section {
-                p {
-                    &:first-child {
-                        color: $themeBtnLinkColor;
-                        font-family: 'Inter', sans-serif;
-                    }
-                }
-                h4 {
-                    margin-bottom: 16px;
-                }
+        padding: 80px 0 48px 0;
+        .block-content {
+            padding: 24px 16px;
+            border-radius: 8px;
+            background-color: #FFF;
+            .heading {
+                display: flex;
+                column-gap: 8px;
             }
         }
     }
     .banner-icon {
-        .light-grey-bg {
-            background-color: #f6f9fcf5!important;
-            .heading, .p-text {
-                color: #000!important;
-                text-shadow: none!important;
-            }
-        }
         background-color: #007aca;
         background-image: url(../images/bg-icon.svg);
         background-position: center center;
@@ -138,7 +122,7 @@
     }
 }
 @media (max-width: 1199px) {
-    .management-system {
+    .deposit-account {
         .banner {
             .banner-content {
                 padding: 8% 3% 4%;
@@ -155,19 +139,10 @@
                 }
             }
         }
-        .content-container-upper-two {
-            .content-container-inner {
-                .content-container-inner-img {
-                    > img {
-                        width: 100%;
-                    }
-                }
-            }
-        }
     }
 }
 @media (min-width: 992px) {
-    .management-system {
+    .deposit-account {
         .banner {
             .banner-content {
                 .banner-content-block {
@@ -180,11 +155,15 @@
         }
     }
 }
-@media (max-width: 575px) {
-    .management-system {
+@media (max-width: 991px) {
+    .deposit-account {
         .content-container-upper-two {
-            padding: 24px 0;
+            padding: 30px 0 30px 0;
         }
+    }
+}
+@media (max-width: 575px) {
+    .deposit-account {
         .banner-icon {
             .banner-icon-inner {
                 padding: 24px 16px;

@@ -1,4 +1,4 @@
-.management-system {
+.occupancy-protocol {
     .banner {
         background-image: url(./../images/precise-rent-banner-img.jpg);
         background-position: center center;
@@ -16,25 +16,36 @@
             }
         }
     }
+    .content-container-upper-one {
+        .img-holder {
+            height: 300px;
+            width: 155px;
+            margin: 0 auto;
+        }
+    }
     .content-container-upper-two {
         background-color: $themeLightGreyBgColor;
-        padding: 56px 0;
-        .content-container-inner {
-            .content-container-inner-img {
-                > img {
-                    width: 85%;
-                }
+        padding: 80px 0 48px 0;
+        .block-content {
+            padding: 24px 16px;
+            border-radius: 8px;
+            background-color: #FFF;
+            .heading {
+                display: flex;
+                column-gap: 8px;
             }
-            .content-container-inner-section {
-                p {
-                    &:first-child {
-                        color: $themeBtnLinkColor;
-                        font-family: 'Inter', sans-serif;
-                    }
-                }
-                h4 {
-                    margin-bottom: 16px;
-                }
+            .number {
+                color: $themeBtnLinkColor;
+                font-family: "Inter", sans-serif;
+                width: 35px;
+                height: 35px;
+                border: 2px solid;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: auto;
+                margin-bottom: 16px;
             }
         }
     }
@@ -138,7 +149,7 @@
     }
 }
 @media (max-width: 1199px) {
-    .management-system {
+    .occupancy-protocol {
         .banner {
             .banner-content {
                 padding: 8% 3% 4%;
@@ -155,19 +166,10 @@
                 }
             }
         }
-        .content-container-upper-two {
-            .content-container-inner {
-                .content-container-inner-img {
-                    > img {
-                        width: 100%;
-                    }
-                }
-            }
-        }
     }
 }
 @media (min-width: 992px) {
-    .management-system {
+    .occupancy-protocol {
         .banner {
             .banner-content {
                 .banner-content-block {
@@ -180,11 +182,26 @@
         }
     }
 }
-@media (max-width: 575px) {
-    .management-system {
+@media (max-width: 991px) {
+    .occupancy-protocol {
         .content-container-upper-two {
-            padding: 24px 0;
+            padding: 30px 0 30px 0;
         }
+    }
+}
+@media (max-width: 767px) {
+    .occupancy-protocol {
+        .content-container-upper-one {
+            .img-holder {
+                height: 240px;
+                width: 120px;
+                margin: 0 auto;
+            }
+        }
+    }
+}
+@media (max-width: 575px) {
+    .occupancy-protocol {
         .banner-icon {
             .banner-icon-inner {
                 padding: 24px 16px;

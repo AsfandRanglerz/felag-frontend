@@ -94,7 +94,7 @@
                                         <li><span class="fa fa-check-circle mr-2"></span><span>Access to Felag Management System for free for 2 months</span></li>
                                     </ul>
                                     <a class="w-100 mt-4 mb-3 btn btn-bg">Select</a>
-                                    <small>Only 1 free rental contract per customer</small>
+                                    <small class="d-block text-center">Only 1 free rental contract per customer</small>
                                 </div>
                             </div>
                             <div class="col-md-4 my-md-5 my-2 px-md-3 px-0 wow fadeInDown" data-wow-duration="2s">
@@ -123,7 +123,7 @@
                             </div>
                             <div class="col-md-4 my-md-5 my-2 px-md-3 px-0 wow fadeInUp" data-wow-duration="2s">
                                 <div class="banner-icon-inner-section">
-                                    <h5 class="heading">Recommended</h5>
+                                    <h5>Recommended</h5>
                                     <h4 class="my-3 sub-heading">49,- <span>per tenancy / month</span></h4>
                                     <ul class="list-style-none">
                                         <li><span class="fa fa-check-circle mr-2"></span><span>Automatic invoicing of rent from your tenants</span></li>
