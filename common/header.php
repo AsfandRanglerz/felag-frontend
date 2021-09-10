@@ -14,7 +14,7 @@
         <link  rel="stylesheet" href="css/inter.css">
         <link rel="stylesheet" href="css/lightgallery.css" />
         <link rel="stylesheet" href="plugins/WOW-master/css/animate.css">
-        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="dist/style.css">
     </head>
     <!--paste this code under the head tag-->
     <div id="loader">
