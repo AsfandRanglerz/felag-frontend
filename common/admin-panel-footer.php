@@ -1,5 +1,5 @@
         <footer class="admin-panel-footer">
-
+            <a></a>
         </footer>
     </body>
     <script src="js/jquery-3.5.1.min.js"></script>
@@ -9,11 +9,12 @@
     <script src="js/main.js"></script>
     <script lang="js">
         $(function () {
-        $("#example-form").steps({
+        $("#signInForm").steps({
             headerTag: "h6",
             bodyTag: "section",
             transitionEffect: "fade",
-            titleTemplate: '<span class="step">#index#</span> #title#'
+            titleTemplate: '<span class="step">#index#</span>'
+            /*titleTemplate: '<span class="step">#index#</span><span>#title#</span>'*/
             });
         })
     </script>

@@ -4,9 +4,14 @@
     <list default="true" id="240ea34c-c489-43cb-bf51-22be685595e0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/admin-panel-footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/admin-panel-footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/pages/admin-panel-header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/pages/admin-panel-header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/pages/global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/pages/global.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/pages/sign-in.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/pages/sign-in.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sign-in.php" beforeDir="false" afterPath="$PROJECT_DIR$/sign-in.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +52,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../felag(gulp-testing)" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -87,6 +92,7 @@
       <workItem from="1631282817500" duration="3659000" />
       <workItem from="1631335726533" duration="6334000" />
       <workItem from="1631343286981" duration="4178000" />
+      <workItem from="1631353020633" duration="10712000" />
     </task>
     <servers />
   </component>
