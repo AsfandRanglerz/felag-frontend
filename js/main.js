@@ -1,4 +1,17 @@
 $(function() {
+    /*wow animation*/
+    wow = new WOW(
+        {
+            boxClass:     'wow',      // default
+            animateClass: 'animated', // default
+            offset:       0,          // default
+            mobile:       true,       // default
+            live:         true        // default
+        }
+    )
+    wow.init();
+    /*wow animation*/
+
     /*footer*/
     var currentYear = (new Date).getFullYear();
     $('.footer #current-year').text(currentYear);

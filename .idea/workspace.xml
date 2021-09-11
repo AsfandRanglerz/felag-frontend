@@ -3,9 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="240ea34c-c489-43cb-bf51-22be685595e0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +41,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="NewWatcherDialog.advanced.open" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -81,7 +83,8 @@
       <workItem from="1630055990456" duration="13703000" />
       <workItem from="1630561624205" duration="17619000" />
       <workItem from="1630645927365" duration="11647000" />
-      <workItem from="1631282817500" duration="2560000" />
+      <workItem from="1631282817500" duration="3659000" />
+      <workItem from="1631335726533" duration="864000" />
     </task>
     <servers />
   </component>
@@ -99,6 +102,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
