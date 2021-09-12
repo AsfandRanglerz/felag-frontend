@@ -4,6 +4,12 @@
     font-family: 'Poppins', sans-serif;
 }
 body {
+    position: relative;
+    min-height: 100vh;
+    overflow-x: hidden;
+    .admin-main-content {
+        padding-bottom: 5rem;
+    }
     .l-spacing-6px {
         letter-spacing: 6px;
     }
@@ -243,6 +249,7 @@ body {
 }
 @media (max-width: 767px) {
     body {
+        b,
         p,
         span,
         label,

@@ -79,12 +79,12 @@
                         </li>
                     </ul>
                     <div class="d-lg-none d-block mt-4 mb-2" align="center">
-                        <a href="./sign-in.php" class="mr-2 btn sign-in-btn">Sign in</a>
+                        <a href="../sign-up.php" class="mr-2 btn sign-in-btn">Sign in</a>
                         <a href="#" class="btn btn-bg">Start now</a>
                     </div>
                 </div>
                 <div class="d-lg-inline-block d-none">
-                    <a href="./sign-in.php" class="mr-2 btn sign-in-btn">Sign in</a>
+                    <a href="../sign-up.php" class="mr-2 btn sign-in-btn">Sign in</a>
                     <a href="#" class="btn btn-bg">Start now</a>
                 </div>
             </div>

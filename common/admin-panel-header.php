@@ -12,6 +12,10 @@
         <link rel="stylesheet" href="css/bootstrap-4.5.3.min.css">
         <link rel="stylesheet" href="css/poppins.css">
         <link  rel="stylesheet" href="css/inter.css">
+        <link rel="stylesheet" href="css/lightgallery.css" />
+        <link rel="stylesheet" href="plugins/WOW-master/css/animate.css">
+<!--        <link rel="stylesheet" href="plugins/intl-tel-input-master/build/css/intlTelInput.css">-->
+        <link rel="stylesheet" href="https://www.bizonair.com/public/assets/front_site/plugins/build/css/intlTelInput.css">
         <link rel="stylesheet" type="text/css" href="dist/style.css">
     </head>
     <!--paste this code under the head tag-->
@@ -20,9 +24,11 @@
     </div>
     <!--paste this code under the head tag-->
     <body>
-        <nav class="d-flex justify-content-between admin-panel-header">
-            <a href="./" class="a-link">Leieadmin</a>
-            <div>
-                <a href="./sign-in.php" class="a-link">Sign in</a>
+        <nav class="row mx-0 admin-panel-header">
+            <div class="col-6">
+                <a href="./" class="text-decoration-none a-link">Leieadmin</a>
+            </div>
+            <div class="col-6 text-right">
+                <a href="../sign-up.php" class="a-link">Sign in</a>
             </div>
         </nav>

@@ -1,7 +1,13 @@
 .admin-panel-header {
   background: $themeBtnLinkColor;
-  padding: 16px 24px;
+  padding: 24px;
   .a-link {
     color: #FFF;
+  }
+}
+
+@media (max-width: 575px) {
+  .admin-panel-header {
+    padding: 16px;
   }
 }

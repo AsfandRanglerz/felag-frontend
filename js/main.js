@@ -14,7 +14,7 @@ $(function() {
 
     /*footer*/
     var currentYear = (new Date).getFullYear();
-    $('.footer #current-year').text(currentYear);
+    $('#current-year').text(currentYear);
     /*footer*/
 
     /*header view, if user not at page top*/
