@@ -5,10 +5,16 @@
 }
 
 body {
+  position: relative;
+  min-height: 100vh;
+  overflow-x: hidden;
   /*custom checkboxes*/
   /*custom checkboxes*/
   /*dropdown animations*/
   /*dropdown animations*/
+}
+body .admin-main-content {
+  padding-bottom: 5rem;
 }
 body .l-spacing-6px {
   letter-spacing: 6px;
@@ -99,13 +105,13 @@ body p, body span:not(.fa), body li, body small {
 body li {
   font-size: 14px;
 }
-body a, body button {
+body a, body a.btn {
   color: #48a955;
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s;
 }
-body a:hover, body a:focus, body button:hover, body button:focus {
+body a:hover, body a:focus, body a.btn:hover, body a.btn:focus {
   color: #358835;
   -ms-transform: scale(0.9);
   -webkit-transform: scale(0.9);
@@ -150,19 +156,19 @@ body .btn:focus {
 }
 body .btn-bg {
   background-color: #48a955;
-  color: #FFF;
+  color: #FFF !important;
   text-shadow: 0px 2px 6px #00000075;
   box-shadow: 0 2px 10px #00000020;
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s;
-  border: 2px solid #48a955 !important;
+  border: 2px solid #48a955;
 }
 body .btn-bg:hover, body .btn-bg:focus {
   background-color: #358835;
   box-shadow: 0 2px 10px #00000050;
-  border: 2px solid #358835 !important;
-  color: #FFF;
+  border: 2px solid #358835;
+  color: #FFF !important;
 }
 body .light-box-shadow {
   box-shadow: 0 2px 10px #00000020;
@@ -209,6 +215,9 @@ body .slideIn {
   -webkit-animation-name: slideIn;
   animation-name: slideIn;
 }
+body .custom-control-label:before, body .custom-control-label:after {
+  top: 0.2rem;
+}
 
 @media (min-width: 992px) {
   .btn-bg.section-btn {
@@ -234,7 +243,8 @@ body .slideIn {
   }
 }
 @media (max-width: 767px) {
-  body p,
+  body b,
+body p,
 body span,
 body label,
 body .btn-bg,
@@ -245,6 +255,9 @@ body .custom-control-label {
   }
   body .small, body small {
     font-size: 67% !important;
+  }
+  body .custom-control-label:before, body .custom-control-label:after {
+    top: 0.1rem;
   }
 }
 @media (max-width: 575px) {
@@ -428,12 +441,35 @@ body .custom-control-label {
 }
 .admin-panel-header {
   background: #48a955;
-  padding: 16px 24px;
+  padding: 24px;
 }
 .admin-panel-header .a-link {
-  color: #FFF;
+  color: #FFF !important;
 }
 
+@media (max-width: 575px) {
+  .admin-panel-header {
+    padding: 16px;
+  }
+}
+.admin-panel-footer {
+  border-top: 2px solid #80808025;
+  padding: 24px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 5rem;
+}
+.admin-panel-footer * {
+  font-family: "Inter", sans-serif;
+}
+
+@media (max-width: 575px) {
+  .admin-panel-footer {
+    padding: 16px;
+    text-align: center;
+  }
+}
 .home .banner {
   background-image: url(https://presisutleie.no/wp-content/uploads/2021/02/bg-01.jpg);
   background-position: center center;
@@ -1453,47 +1489,47 @@ body .custom-control-label {
     padding: 24px 16px;
   }
 }
-.sign-in .panel {
+.sign-up .panel {
   border-radius: 8px;
 }
-.sign-in .panel .wizard-content .wizard {
+.sign-up .panel .wizard-content .wizard {
   width: 100%;
   overflow: hidden;
 }
-.sign-in .panel .wizard-content .wizard .landlord-choose-options .landlord-group-btns {
+.sign-up .panel .wizard-content .wizard .landlord-choose-options .landlord-group-btns {
   border: 1px solid lightgrey;
   padding: 30px 16px;
   width: 195px;
 }
-.sign-in .panel .wizard-content .wizard .landlord-choose-options .landlord-group-btns .fa {
+.sign-up .panel .wizard-content .wizard .landlord-choose-options .landlord-group-btns .fa {
   font-size: 48px;
   color: #525f7f;
   margin-bottom: 16px;
 }
-.sign-in .panel .wizard-content .wizard .landlord-choose-options .landlord-group-btns .text {
+.sign-up .panel .wizard-content .wizard .landlord-choose-options .landlord-group-btns .text {
   font-size: 16px;
 }
-.sign-in .panel .wizard-content .wizard .landlord-choose-options .landlord-group-btns:focus {
+.sign-up .panel .wizard-content .wizard .landlord-choose-options .landlord-group-btns:focus {
   box-shadow: none;
 }
-.sign-in .panel .wizard-content .wizard .landlord-choose-options .landlord-group-btns.active {
+.sign-up .panel .wizard-content .wizard .landlord-choose-options .landlord-group-btns.active {
   background-color: #48a955;
 }
-.sign-in .panel .wizard-content .wizard .landlord-choose-options .landlord-group-btns.active .fa {
+.sign-up .panel .wizard-content .wizard .landlord-choose-options .landlord-group-btns.active .fa {
   color: #FFF;
 }
-.sign-in .panel .wizard-content .wizard .landlord-choose-options .landlord-group-btns.active .text {
+.sign-up .panel .wizard-content .wizard .landlord-choose-options .landlord-group-btns.active .text {
   color: #FFF;
 }
-.sign-in .panel .wizard-content .wizard .landlord-choose-options .landlord-group-btns.focus {
+.sign-up .panel .wizard-content .wizard .landlord-choose-options .landlord-group-btns.focus {
   box-shadow: none;
 }
-.sign-in .panel .wizard-content .wizard > .steps {
+.sign-up .panel .wizard-content .wizard > .steps {
   position: relative;
   display: block;
   width: 100%;
 }
-.sign-in .panel .wizard-content .wizard > .steps > ul {
+.sign-up .panel .wizard-content .wizard > .steps > ul {
   display: table;
   width: 100%;
   table-layout: fixed;
@@ -1501,28 +1537,28 @@ body .custom-control-label {
   padding: 0;
   list-style: none;
 }
-.sign-in .panel .wizard-content .wizard > .steps > ul > li {
+.sign-up .panel .wizard-content .wizard > .steps > ul > li {
   display: table-cell;
   width: auto;
   vertical-align: top;
   text-align: center;
   position: relative;
 }
-.sign-in .panel .wizard-content .wizard > .steps > ul > li:after {
+.sign-up .panel .wizard-content .wizard > .steps > ul > li:after {
   content: "";
   z-index: 9;
   display: block;
   position: absolute;
   right: 0;
 }
-.sign-in .panel .wizard-content .wizard > .steps > ul > li:before {
+.sign-up .panel .wizard-content .wizard > .steps > ul > li:before {
   content: "";
   z-index: 9;
   display: block;
   position: absolute;
   left: 0;
 }
-.sign-in .panel .wizard-content .wizard > .steps > ul > li a {
+.sign-up .panel .wizard-content .wizard > .steps > ul > li a {
   position: relative;
   padding-top: 52px;
   margin-top: 20px;
@@ -1530,56 +1566,56 @@ body .custom-control-label {
   display: block;
   z-index: 555;
 }
-.sign-in .panel .wizard-content .wizard > .steps > ul > li:first-child:before {
+.sign-up .panel .wizard-content .wizard > .steps > ul > li:first-child:before {
   content: none;
 }
-.sign-in .panel .wizard-content .wizard > .steps > ul > li:last-child:after {
+.sign-up .panel .wizard-content .wizard > .steps > ul > li:last-child:after {
   content: none;
 }
-.sign-in .panel .wizard-content .wizard > .steps > ul > li.current > a {
+.sign-up .panel .wizard-content .wizard > .steps > ul > li.current > a {
   color: #2f3d4a;
   cursor: default;
 }
-.sign-in .panel .wizard-content .wizard > .steps > ul > li.current .step {
+.sign-up .panel .wizard-content .wizard > .steps > ul > li.current .step {
   border-color: #48a955;
   background-color: #fff;
   color: #48a955;
 }
-.sign-in .panel .wizard-content .wizard > .steps > ul > li.disabled a {
+.sign-up .panel .wizard-content .wizard > .steps > ul > li.disabled a {
   color: #999;
   cursor: default;
 }
-.sign-in .panel .wizard-content .wizard > .steps > ul > li.disabled a:focus {
+.sign-up .panel .wizard-content .wizard > .steps > ul > li.disabled a:focus {
   color: #999;
   cursor: default;
 }
-.sign-in .panel .wizard-content .wizard > .steps > ul > li.disabled a:hover {
+.sign-up .panel .wizard-content .wizard > .steps > ul > li.disabled a:hover {
   color: #999;
   cursor: default;
 }
-.sign-in .panel .wizard-content .wizard > .steps > ul > li.done a {
+.sign-up .panel .wizard-content .wizard > .steps > ul > li.done a {
   color: #999;
 }
-.sign-in .panel .wizard-content .wizard > .steps > ul > li.done a:focus {
+.sign-up .panel .wizard-content .wizard > .steps > ul > li.done a:focus {
   color: #999;
 }
-.sign-in .panel .wizard-content .wizard > .steps > ul > li.done a:hover {
+.sign-up .panel .wizard-content .wizard > .steps > ul > li.done a:hover {
   color: #999;
 }
-.sign-in .panel .wizard-content .wizard > .steps > ul > li.done .step {
+.sign-up .panel .wizard-content .wizard > .steps > ul > li.done .step {
   background-color: #48a955;
   border-color: #48a955;
   color: #fff;
 }
-.sign-in .panel .wizard-content .wizard > .steps > ul > li.error .step {
+.sign-up .panel .wizard-content .wizard > .steps > ul > li.error .step {
   border-color: #f62d51;
   color: #f62d51;
 }
-.sign-in .panel .wizard-content .wizard > .steps .current-info {
+.sign-up .panel .wizard-content .wizard > .steps .current-info {
   position: absolute;
   left: -99999px;
 }
-.sign-in .panel .wizard-content .wizard > .steps .step {
+.sign-up .panel .wizard-content .wizard > .steps .step {
   background-color: #fff;
   display: inline-block;
   position: absolute;
@@ -1589,131 +1625,131 @@ body .custom-control-label {
   z-index: 10;
   text-align: center;
 }
-.sign-in .panel .wizard-content .wizard .content {
+.sign-up .panel .wizard-content .wizard .content {
   margin-left: 0 !important;
 }
-.sign-in .panel .wizard-content .wizard > .content {
+.sign-up .panel .wizard-content .wizard > .content {
   overflow: hidden;
   position: relative;
   width: auto;
   padding: 0;
   margin: 0;
 }
-.sign-in .panel .wizard-content .wizard > .content > .title {
+.sign-up .panel .wizard-content .wizard > .content > .title {
   position: absolute;
   left: -99999px;
 }
-.sign-in .panel .wizard-content .wizard > .content > .body {
+.sign-up .panel .wizard-content .wizard > .content > .body {
   padding: 0 20px;
 }
-.sign-in .panel .wizard-content .wizard > .content > iframe {
+.sign-up .panel .wizard-content .wizard > .content > iframe {
   border: 0;
   width: 100%;
   height: 100%;
 }
-.sign-in .panel .wizard-content .wizard > .actions {
+.sign-up .panel .wizard-content .wizard > .actions {
   position: relative;
   display: block;
   text-align: right;
   padding: 0 20px 20px;
 }
-.sign-in .panel .wizard-content .wizard > .actions > ul {
+.sign-up .panel .wizard-content .wizard > .actions > ul {
   display: flex;
   justify-content: flex-end;
   margin: 24px 0 0;
   list-style: none;
 }
-.sign-in .panel .wizard-content .wizard > .actions > ul:after {
+.sign-up .panel .wizard-content .wizard > .actions > ul:after {
   content: "";
   display: table;
   clear: both;
 }
-.sign-in .panel .wizard-content .wizard > .actions > ul > li > a {
+.sign-up .panel .wizard-content .wizard > .actions > ul > li > a {
   text-decoration: none;
   width: 95px;
   text-align: center;
   background: #48a955;
-  color: #fff;
+  color: #FFF !important;
   display: block;
   padding: 7px 12px;
   border-radius: 4px;
   border: 1px solid transparent;
 }
-.sign-in .panel .wizard-content .wizard > .actions > ul > li > a:focus {
+.sign-up .panel .wizard-content .wizard > .actions > ul > li > a:focus {
   -webkit-box-shadow: 0 0 0 100px rgba(0, 0, 0, 0.05) inset;
   box-shadow: 0 0 0 100px rgba(0, 0, 0, 0.05) inset;
 }
-.sign-in .panel .wizard-content .wizard > .actions > ul > li > a:hover {
+.sign-up .panel .wizard-content .wizard > .actions > ul > li > a:hover {
   -webkit-box-shadow: 0 0 0 100px rgba(0, 0, 0, 0.05) inset;
   box-shadow: 0 0 0 100px rgba(0, 0, 0, 0.05) inset;
 }
-.sign-in .panel .wizard-content .wizard > .actions > ul > li > a:active {
+.sign-up .panel .wizard-content .wizard > .actions > ul > li > a:active {
   -webkit-box-shadow: 0 0 0 100px rgba(0, 0, 0, 0.1) inset;
   box-shadow: 0 0 0 100px rgba(0, 0, 0, 0.1) inset;
 }
-.sign-in .panel .wizard-content .wizard > .actions > ul > li > a[href="#previous"] {
+.sign-up .panel .wizard-content .wizard > .actions > ul > li > a[href="#previous"] {
   background-color: #fff;
-  color: #54667a;
+  color: #54667a !important;
   border: 1px solid #d9d9d9;
 }
-.sign-in .panel .wizard-content .wizard > .actions > ul > li > a[href="#previous"]:focus {
+.sign-up .panel .wizard-content .wizard > .actions > ul > li > a[href="#previous"]:focus {
   -webkit-box-shadow: 0 0 0 100px rgba(0, 0, 0, 0.02) inset;
   box-shadow: 0 0 0 100px rgba(0, 0, 0, 0.02) inset;
 }
-.sign-in .panel .wizard-content .wizard > .actions > ul > li > a[href="#previous"]:hover {
+.sign-up .panel .wizard-content .wizard > .actions > ul > li > a[href="#previous"]:hover {
   -webkit-box-shadow: 0 0 0 100px rgba(0, 0, 0, 0.02) inset;
   box-shadow: 0 0 0 100px rgba(0, 0, 0, 0.02) inset;
 }
-.sign-in .panel .wizard-content .wizard > .actions > ul > li > a[href="#previous"]:active {
+.sign-up .panel .wizard-content .wizard > .actions > ul > li > a[href="#previous"]:active {
   -webkit-box-shadow: 0 0 0 100px rgba(0, 0, 0, 0.04) inset;
   box-shadow: 0 0 0 100px rgba(0, 0, 0, 0.04) inset;
 }
-.sign-in .panel .wizard-content .wizard > .actions > ul > li + li {
+.sign-up .panel .wizard-content .wizard > .actions > ul > li + li {
   margin-left: 10px;
 }
-.sign-in .panel .wizard-content .wizard > .actions > ul > li.disabled > a {
+.sign-up .panel .wizard-content .wizard > .actions > ul > li.disabled > a {
   color: #999;
 }
-.sign-in .panel .wizard-content .wizard > .actions > ul > li.disabled > a:focus {
+.sign-up .panel .wizard-content .wizard > .actions > ul > li.disabled > a:focus {
   color: #999;
 }
-.sign-in .panel .wizard-content .wizard > .actions > ul > li.disabled > a:hover {
+.sign-up .panel .wizard-content .wizard > .actions > ul > li.disabled > a:hover {
   color: #999;
 }
-.sign-in .panel .wizard-content .wizard > .actions > ul > li.disabled > a[href="#previous"] {
+.sign-up .panel .wizard-content .wizard > .actions > ul > li.disabled > a[href="#previous"] {
   -webkit-box-shadow: none;
   box-shadow: none;
 }
-.sign-in .panel .wizard-content .wizard > .actions > ul > li.disabled > a[href="#previous"]:focus {
+.sign-up .panel .wizard-content .wizard > .actions > ul > li.disabled > a[href="#previous"]:focus {
   -webkit-box-shadow: none;
   box-shadow: none;
 }
-.sign-in .panel .wizard-content .wizard > .actions > ul > li.disabled > a[href="#previous"]:hover {
+.sign-up .panel .wizard-content .wizard > .actions > ul > li.disabled > a[href="#previous"]:hover {
   -webkit-box-shadow: none;
   box-shadow: none;
 }
-.sign-in .panel .wizard-content .wizard.wizard-circle > .steps > ul > li:after {
+.sign-up .panel .wizard-content .wizard.wizard-circle > .steps > ul > li:after {
   top: 45px;
   width: 50%;
   height: 3px;
   background-color: #48a955;
 }
-.sign-in .panel .wizard-content .wizard.wizard-circle > .steps > ul > li:before {
+.sign-up .panel .wizard-content .wizard.wizard-circle > .steps > ul > li:before {
   top: 45px;
   width: 50%;
   height: 3px;
   background-color: #48a955;
 }
-.sign-in .panel .wizard-content .wizard.wizard-circle > .steps > ul > li.current:after {
+.sign-up .panel .wizard-content .wizard.wizard-circle > .steps > ul > li.current:after {
   background-color: #F3F3F3;
 }
-.sign-in .panel .wizard-content .wizard.wizard-circle > .steps > ul > li.current ~ li:after {
+.sign-up .panel .wizard-content .wizard.wizard-circle > .steps > ul > li.current ~ li:after {
   background-color: #F3F3F3;
 }
-.sign-in .panel .wizard-content .wizard.wizard-circle > .steps > ul > li.current ~ li:before {
+.sign-up .panel .wizard-content .wizard.wizard-circle > .steps > ul > li.current ~ li:before {
   background-color: #F3F3F3;
 }
-.sign-in .panel .wizard-content .wizard.wizard-circle > .steps .step {
+.sign-up .panel .wizard-content .wizard.wizard-circle > .steps .step {
   cursor: pointer;
   width: 50px;
   height: 50px;
@@ -1722,42 +1758,42 @@ body .custom-control-label {
   font-size: 1.3rem;
   border-radius: 50%;
 }
-.sign-in .panel .wizard-content .wizard.wizard-notification > .steps > ul > li:after {
+.sign-up .panel .wizard-content .wizard.wizard-notification > .steps > ul > li:after {
   top: 39px;
   width: 50%;
   height: 2px;
   background-color: #48a955;
 }
-.sign-in .panel .wizard-content .wizard.wizard-notification > .steps > ul > li:before {
+.sign-up .panel .wizard-content .wizard.wizard-notification > .steps > ul > li:before {
   top: 39px;
   width: 50%;
   height: 2px;
   background-color: #48a955;
 }
-.sign-in .panel .wizard-content .wizard.wizard-notification > .steps > ul > li.current .step {
+.sign-up .panel .wizard-content .wizard.wizard-notification > .steps > ul > li.current .step {
   border: 2px solid #48a955;
   color: #48a955;
   line-height: 36px;
 }
-.sign-in .panel .wizard-content .wizard.wizard-notification > .steps > ul > li.current .step:after {
+.sign-up .panel .wizard-content .wizard.wizard-notification > .steps > ul > li.current .step:after {
   border-top-color: #48a955;
 }
-.sign-in .panel .wizard-content .wizard.wizard-notification > .steps > ul > li.current:after {
+.sign-up .panel .wizard-content .wizard.wizard-notification > .steps > ul > li.current:after {
   background-color: #F3F3F3;
 }
-.sign-in .panel .wizard-content .wizard.wizard-notification > .steps > ul > li.done .step {
+.sign-up .panel .wizard-content .wizard.wizard-notification > .steps > ul > li.done .step {
   color: #FFF;
 }
-.sign-in .panel .wizard-content .wizard.wizard-notification > .steps > ul > li.done .step:after {
+.sign-up .panel .wizard-content .wizard.wizard-notification > .steps > ul > li.done .step:after {
   border-top-color: #48a955;
 }
-.sign-in .panel .wizard-content .wizard.wizard-notification > .steps > ul > li.current ~ li:after {
+.sign-up .panel .wizard-content .wizard.wizard-notification > .steps > ul > li.current ~ li:after {
   background-color: #F3F3F3;
 }
-.sign-in .panel .wizard-content .wizard.wizard-notification > .steps > ul > li.current ~ li:before {
+.sign-up .panel .wizard-content .wizard.wizard-notification > .steps > ul > li.current ~ li:before {
   background-color: #F3F3F3;
 }
-.sign-in .panel .wizard-content .wizard.wizard-notification > .steps .step {
+.sign-up .panel .wizard-content .wizard.wizard-notification > .steps .step {
   width: 40px;
   height: 40px;
   line-height: 40px;
@@ -1765,7 +1801,7 @@ body .custom-control-label {
   border-radius: 15%;
   background-color: #F3F3F3;
 }
-.sign-in .panel .wizard-content .wizard.wizard-notification > .steps .step:after {
+.sign-up .panel .wizard-content .wizard.wizard-notification > .steps .step:after {
   content: "";
   width: 0;
   height: 0;
@@ -1778,47 +1814,47 @@ body .custom-control-label {
   border-right: 7px solid transparent;
   border-top: 8px solid #F3F3F3;
 }
-.sign-in .panel .wizard-content .wizard.vertical > .steps {
+.sign-up .panel .wizard-content .wizard.vertical > .steps {
   display: inline;
   float: left;
   width: 20%;
 }
-.sign-in .panel .wizard-content .wizard.vertical > .steps > ul > li {
+.sign-up .panel .wizard-content .wizard.vertical > .steps > ul > li {
   display: block;
   width: 100%;
 }
-.sign-in .panel .wizard-content .wizard.vertical > .steps > ul > li:after {
+.sign-up .panel .wizard-content .wizard.vertical > .steps > ul > li:after {
   background-color: transparent;
 }
-.sign-in .panel .wizard-content .wizard.vertical > .steps > ul > li:before {
+.sign-up .panel .wizard-content .wizard.vertical > .steps > ul > li:before {
   background-color: transparent;
 }
-.sign-in .panel .wizard-content .wizard.vertical > .steps > ul > li.current:after {
+.sign-up .panel .wizard-content .wizard.vertical > .steps > ul > li.current:after {
   background-color: transparent;
 }
-.sign-in .panel .wizard-content .wizard.vertical > .steps > ul > li.current:before {
+.sign-up .panel .wizard-content .wizard.vertical > .steps > ul > li.current:before {
   background-color: transparent;
 }
-.sign-in .panel .wizard-content .wizard.vertical > .steps > ul > li.current ~ li:after {
+.sign-up .panel .wizard-content .wizard.vertical > .steps > ul > li.current ~ li:after {
   background-color: transparent;
 }
-.sign-in .panel .wizard-content .wizard.vertical > .steps > ul > li.current ~ li:before {
+.sign-up .panel .wizard-content .wizard.vertical > .steps > ul > li.current ~ li:before {
   background-color: transparent;
 }
 
 @media (max-width: 767px) {
-  .sign-in .panel .wizard-content .wizard.wizard-circle .landlord-choose-options .landlord-group-btns {
+  .sign-up .panel .wizard-content .wizard.wizard-circle .landlord-choose-options .landlord-group-btns {
     padding: 16px 24px;
     width: unset;
   }
-  .sign-in .panel .wizard-content .wizard.wizard-circle .landlord-choose-options .landlord-group-btns .fa {
+  .sign-up .panel .wizard-content .wizard.wizard-circle .landlord-choose-options .landlord-group-btns .fa {
     font-size: 18px;
     margin-bottom: 0;
   }
-  .sign-in .panel .wizard-content .wizard.wizard-circle .landlord-choose-options .landlord-group-btns .text {
+  .sign-up .panel .wizard-content .wizard.wizard-circle .landlord-choose-options .landlord-group-btns .text {
     display: none;
   }
-  .sign-in .panel .wizard-content .wizard.wizard-circle > .steps .step {
+  .sign-up .panel .wizard-content .wizard.wizard-circle > .steps .step {
     border: 3px solid #f3f3f3;
     border-radius: 50%;
     font-size: 14px;
@@ -1827,15 +1863,76 @@ body .custom-control-label {
     width: 40px;
     margin-left: -20px;
   }
-  .sign-in .panel .wizard-content .wizard.wizard-circle > .steps > ul > li a {
+  .sign-up .panel .wizard-content .wizard.wizard-circle > .steps > ul > li a {
     padding-top: 40px;
   }
-  .sign-in .panel .wizard-content .wizard.wizard-circle > .steps > ul > li:after {
+  .sign-up .panel .wizard-content .wizard.wizard-circle > .steps > ul > li:after {
     top: 40px;
   }
-  .sign-in .panel .wizard-content .wizard.wizard-circle > .steps > ul > li:before {
+  .sign-up .panel .wizard-content .wizard.wizard-circle > .steps > ul > li:before {
     top: 40px;
   }
+}
+.sign-in {
+  border-radius: 8px;
+}
+.sign-in .sign-in-block-header {
+  background-color: #48a955;
+  border-radius: 8px 8px 0 0;
+}
+.sign-in .sign-in-block-header .sign-in-block-header-inner {
+  padding: 16px 24px;
+}
+.sign-in .sign-in-block-header .PolygonRuler {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 3.90625%;
+}
+.sign-in .sign-in-block-header .PolygonRuler .PolygonRuler__SVG {
+  position: absolute;
+  bottom: -0.0625rem;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.sign-in .sign-in-block-header .PolygonRuler .PolygonRuler__SVG .PolygonRuler__Polygon {
+  fill: #fff;
+}
+.sign-in #signInForm {
+  padding: 24px;
+}
+
+.forget-password {
+  border-radius: 8px;
+}
+.forget-password .forget-pass-block-header {
+  background-color: #48a955;
+  border-radius: 8px 8px 0 0;
+}
+.forget-password .forget-pass-block-header .forget-pass-block-header-inner {
+  padding: 16px 24px;
+}
+.forget-password .forget-pass-block-header .PolygonRuler {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 3.90625%;
+}
+.forget-password .forget-pass-block-header .PolygonRuler .PolygonRuler__SVG {
+  position: absolute;
+  bottom: -0.0625rem;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.forget-password .forget-pass-block-header .PolygonRuler .PolygonRuler__SVG .PolygonRuler__Polygon {
+  fill: #fff;
+}
+.forget-password #forgetPassForm {
+  padding: 24px;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -18,7 +18,7 @@
     <script src="js/main.js"></script>
     <script lang="js">
         $(function () {
-            $("#signInForm").steps({
+            $("#signUpForm").steps({
             headerTag: "h6",
             bodyTag: "section",
             transitionEffect: "fade",

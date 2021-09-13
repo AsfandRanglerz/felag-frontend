@@ -231,7 +231,7 @@
                                 width: 95px;
                                 text-align: center;
                                 background: $themeBtnLinkColor;
-                                color: #fff;
+                                color: #FFF!important;
                                 display: block;
                                 padding: 7px 12px;
                                 border-radius: 4px;
@@ -255,7 +255,7 @@
 
                             > a[href="#previous"] {
                                 background-color: #fff;
-                                color: #54667a;
+                                color: #54667a!important;
                                 border: 1px solid #d9d9d9;
 
                                 &:focus {

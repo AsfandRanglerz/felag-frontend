@@ -4,7 +4,7 @@
         <div class="mx-auto col-lg-8">
             <div class="panel light-box-shadow">
                 <div class="panel-body wizard-content">
-                    <form id="signInForm" action="#" class="tab-wizard wizard-circle wizard clearfix">
+                    <form id="signUpForm" action="#" class="tab-wizard wizard-circle wizard clearfix">
                         <h6>Account</h6>
                         <section>
                             <div class="row">
@@ -83,10 +83,10 @@
                         <h6>Warning</h6>
                         <section>
                             <b>Please enter your mobile number. You will receive an SMS with a verification code.</b>
-                            <div class="form-group col-sm-6 px-0 mt-3">
+                            <div class="form-group col-sm-8 px-0 mt-3">
                                 <label>Mobile Number<span class="required"> *</span></label>
                                 <div class="row">
-                                    <div class="col-3">
+                                    <div class="col-md-3 col-5">
                                         <select class="form-control">
                                             <option value="+1">+1</option>
                                             <option value="+91">+91</option>
@@ -95,7 +95,7 @@
                                             <option value="+47">+47</option>
                                         </select>
                                     </div>
-                                    <div class="col-9">
+                                    <div class="pl-0 col-7">
                                         <input type="tel" placeholder="Mobile Number" class="form-control">
                                     </div>
                                 </div>
