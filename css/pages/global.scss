@@ -10,6 +10,27 @@ body {
     .admin-main-content {
         padding-bottom: 5rem;
     }
+    .accordion {
+        .card {
+            &:not(:last-of-type) {
+                border-bottom: 1px solid #f6f9fc;
+            }
+            border-top: 0;
+            border-left: 0;
+            border-right: 0;
+            .card-header {
+                border-bottom: 0;
+                background-color: $themeBtnLinkColor;
+                cursor: pointer;
+                .collapsing-bar {
+                    color: #FFF;
+                }
+            }
+        }
+    }
+    .fa-check-circle {
+        color: $themeBtnLinkColor;
+    }
     .l-spacing-6px {
         letter-spacing: 6px;
     }

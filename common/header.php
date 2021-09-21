@@ -45,13 +45,13 @@
                                         <div class="d-flex flex-column">
                                             <a class="dropdown-item d-inline-block" href="./management-system.php">Management System</a>
                                             <a class="dropdown-item d-inline-block" href="./precise-rent-contract.php">Digital Lease</a>
-                                            <a class="dropdown-item d-inline-block" href="#">Something else here</a>
+                                            <a class="dropdown-item d-inline-block" href="./collection-rent.php">Collection of rent</a>
                                         </div>
                                     </div>
                                     <div class="col-md-4 dropdown-menu-section">
                                         <div class="d-flex flex-column">
                                             <a class="dropdown-item d-inline-block" href="./deposit-account.php">Deposit Account</a>
-                                            <a class="dropdown-item d-inline-block" href="#">Another action</a>
+                                            <a class="dropdown-item d-inline-block" href="./rent-guarantee.php">Rent Guarantee</a>
                                             <a class="dropdown-item d-inline-block" href="./occupancy-protocol.php">Occupancy Protocol</a>
                                         </div>
                                     </div>
