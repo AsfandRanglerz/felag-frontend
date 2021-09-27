@@ -1,0 +1,79 @@
+#dashboardSidebar {
+    background-color: #403d51;
+    position: fixed;
+    left: 0;
+    width: 20%;
+    height: 100%;
+    .side-nav {
+        .side-nav-links {
+            list-style: none;
+            > li {
+                cursor: pointer;
+                -webkit-transition: all 0.3s ease-in-out;
+                -moz-transition: all 0.3s ease-in-out;
+                transition: all 0.3s ease-in-out;
+                .sidebar-links {
+                    padding: 8px 16px;
+                    color: #FFF;
+                    text-decoration: none;
+                    -ms-transform: scale(1);
+                    -webkit-transform: scale(1);
+                    transform: scale(1);
+                    display: block;
+                }
+                &:hover {
+                    background-color: #3588357a;
+                }
+            }
+            > li.active {
+                background-color: $themeDarkBtnLinkColor;
+            }
+            .dropdown {
+                .side-nav-dropdown {
+                    padding: 0 16px 16px;
+                    list-style: none;
+                    display: none;
+                    > li {
+                        border-bottom: 1px solid #ffffff45;
+                        -webkit-transition: all 0.3s ease-in-out;
+                        -moz-transition: all 0.3s ease-in-out;
+                        transition: all 0.3s ease-in-out;
+                        &:hover {
+                            background-color: $themeDarkBtnLinkColor;
+                        }
+                        &:last-child {
+                            border-bottom: none;
+                        }
+                        .sidebar-links {
+                            padding: 8px 16px;
+                            text-decoration: none;
+                            -ms-transform: scale(1);
+                            -webkit-transform: scale(1);
+                            transform: scale(1);
+                            display: block;
+                        }
+                    }
+                }
+                &:after {
+                    content: "\f054";
+                    font-family: fontAwesome;
+                    font-size: 11px;
+                    position: absolute;
+                    right: 16px;
+                    top: 12px;
+                    color: #FFF;
+                    -webkit-transition: all .3s ease-in-out;
+                    -moz-transition: all .3s ease-in-out;
+                    transition: all .3s ease-in-out;
+                }
+            }
+            .opend {
+                &:after {
+                    -webkit-transform: rotate(90deg);
+                    -moz-transform: rotate(90deg);
+                    transform: rotate(90deg);
+                }
+            }
+        }
+    }
+}

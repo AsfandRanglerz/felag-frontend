@@ -25,6 +25,7 @@
     <body>
         <nav class="row mx-0 admin-panel-header">
             <div class="col-6">
+                <button class="btn p-0" id="menuToggle"><span class="fa fa-bars text-white"></span></button>
                 <a href="./" class="text-decoration-none a-link">Leieadmin</a>
             </div>
             <div class="col-6 text-right">

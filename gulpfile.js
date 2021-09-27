@@ -23,7 +23,7 @@ function jsTask() {
 // Browsersync Tasks
 function browsersyncServe(cb){
     browsersync.init({
-        proxy: "http://localhost/leieadmin",
+        proxy: "http://localhost/leieadmin-frontend",
         options: {
             reloadDelay: 250
         },

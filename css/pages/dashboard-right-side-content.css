@@ -1,0 +1,30 @@
+#dashboardSidebarRightContent {
+  margin-left: 20%;
+  height: 100%;
+}
+#dashboardSidebarRightContent .admin-panel-header {
+  background-color: #403d51;
+  padding: 12px;
+}
+#dashboardSidebarRightContent .admin-panel-header #menuToggle {
+  font-size: 16px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+#dashboardSidebarRightContent .admin-panel-header #menuToggle:hover {
+  transform: scale(1.5);
+}
+#dashboardSidebarRightContent .admin-panel-header #menuToggle + .a-link {
+  display: none;
+}
+#dashboardSidebarRightContent .admin-main-content {
+  padding-bottom: 3rem;
+}
+#dashboardSidebarRightContent .admin-panel-footer {
+  height: 3rem;
+  padding: 12px;
+  width: 80%;
+}
+
+/*# sourceMappingURL=dashboard-right-side-content.css.map */
