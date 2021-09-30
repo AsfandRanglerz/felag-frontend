@@ -2337,6 +2337,7 @@ body .custom-control-label {
   left: 0;
   width: 20%;
   height: 100%;
+  transition: margin 0.25s ease-out;
 }
 #dashboardSidebar .side-nav .side-nav-links {
   list-style: none;
@@ -2405,8 +2406,21 @@ body .custom-control-label {
   transform: rotate(90deg);
 }
 
+.toggled {
+  margin-left: 0 !important;
+}
+
+.sidebar-toggle {
+  margin-left: -20% !important;
+}
+
+.footer-width {
+  width: 100% !important;
+}
+
 #dashboardSidebarRightContent {
   margin-left: 20%;
+  transition: margin 0.25s ease-out;
 }
 #dashboardSidebarRightContent a, #dashboardSidebarRightContent button {
   transform: scale(1);
@@ -2515,21 +2529,21 @@ body .custom-control-label {
 .custom-switch .custom-control-input:checked ~ .custom-control-label::after {
   transform: translateX(1.75rem);
 }
-
-.custom-switch .custom-control-label::before {
-  left: -2.25rem;
-  width: 2.75rem;
-  pointer-events: all;
-  border-radius: 0.5rem;
-}
-
-body .custom-control-input:focus:not(:checked) ~ .custom-control-label:before, body .custom-control-label:before {
+.custom-switch .custom-control-input:focus:not(:checked) ~ .custom-control-label:before {
   background-color: #fff;
   border: 2px solid #545b627d;
 }
-
-.custom-control-label::before {
+.custom-switch .custom-control-label::before {
+  left: -2.25rem;
+  width: 2.75rem;
   height: 1.1rem;
+  pointer-events: all;
+  border-radius: 0.5rem;
+  background-color: #fff;
+  border: 2px solid #545b627d;
+}
+.custom-switch .custom-control-label::after {
+  left: calc(-2.20rem + 2px);
 }
 
 /*# sourceMappingURL=style.css.map */

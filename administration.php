@@ -4,7 +4,7 @@
         <?php include "common/admin-panel-header.php" ?>
         <div class="p-4 admin-main-content">
             <h4>User Account</h4>
-            <p>Mubin Kapur</p>
+            <p><span class="fa fa-home"></span> - Mubin Kapur</p>
             <div class="row mx-0 py-3 rounded light-box-shadow">
                 <div class="col-3 nav-pills-container">
                     <h5>Shortcuts</h5>
@@ -66,7 +66,10 @@
                             </form>
                         </div>
                         <div class="tab-pane fade" id="v-settings" role="tabpanel" aria-labelledby="v-settings-tab">
-                            <h5>Settings</h5>
+                            <div class="mb-4 d-flex flex-wrap align-items-center justify-content-between">
+                                <h5 class="mb-0">Settings</h5>
+                                <a class="btn btn-bg">Save</a>
+                            </div>
                             <p class="text-muted">Here you will find an overview of your settings</p>
                             <h6>Agree</h6>
                             <div class="row">
@@ -78,6 +81,31 @@
                                     <div class="custom-control custom-switch">
                                         <input type="checkbox" class="custom-control-input" id="agreeYes">
                                         <label class="custom-control-label" for="agreeYes"></label>
+                                    </div>
+                                </div>
+                            </div>
+                            <h6>Settings</h6>
+                            <div class="row">
+                                <div class="col-md-9">
+                                    <b class="text-muted">Copy of email to tenant about payment of rent</b>
+                                    <p class="text-muted">When the tenant receives monthly payment information about rent, you as the landlord can receive an email with information about this</p>
+                                </div>
+                                <div class="col-md-3 text-right">
+                                    <div class="custom-control custom-switch">
+                                        <input type="checkbox" class="custom-control-input" id="payYes">
+                                        <label class="custom-control-label" for="payYes"></label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-9">
+                                    <b class="text-muted">Notification of unpaid rent</b>
+                                    <p class="text-muted">You as a landlord can receive notification of unpaid rent 5 days after the payment deadline</p>
+                                </div>
+                                <div class="col-md-3 text-right">
+                                    <div class="custom-control custom-switch">
+                                        <input type="checkbox" class="custom-control-input" id="unPayYes">
+                                        <label class="custom-control-label" for="unPayYes"></label>
                                     </div>
                                 </div>
                             </div>
@@ -102,6 +130,7 @@
     </div>
     <script>
         $(function () {
+            /*dasboard sidebar*/
             $(".sidebar-links").each(function () {
                 var currentUrlBase = window.location.href.split('/').pop();
                 var activeUrlBase = $(this).attr("href").split('/').pop();
@@ -113,7 +142,6 @@
                 }
             });
 
-            /*dasboard sidebar*/
             $('#dashboardSidebar .side-nav .side-nav-links li').on('click', function () {
 
                 var $this = $(this);
@@ -134,6 +162,7 @@
                 $('#' + $(this).data('close')).addClass('show-side-nav');
                 contents.removeClass('margin');
             });
+            /*dasboard sidebar*/
 
             /*Avatar upload*/
             var readURL = function (input) {
@@ -157,7 +186,6 @@
                 $(this).siblings('.file-upload').click();
             });
             /*Avatar upload*/
-            /*dasboard sidebar*/
         });
     </script>
 </div>

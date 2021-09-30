@@ -26,5 +26,10 @@
             /*titleTemplate: '<span class="step">#index#</span><span>#title#</span>'*/
             });
         })
+        $("#menuToggle").click(function () {
+            $("#dashboardSidebarRightContent").toggleClass("toggled");
+            $("#dashboardSidebar").toggleClass("sidebar-toggle");
+            $(".admin-panel-footer").toggleClass("footer-width");
+        });
     </script>
 </html>
